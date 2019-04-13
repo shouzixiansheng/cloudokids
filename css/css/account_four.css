@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family:"Avenir Next";
+}
+ul, li {
+    list-style: none;
+}
+
+body {
+    background-color: #efeff4;
+}
+
+nav {
+    width: 100%;
+    height: 0.72rem;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #FFFFFF;
+}
+
+nav span {
+    line-height: 0.72rem;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+nav span:nth-of-type(1) {
+    width: 9%;
+    font-size: 0.5rem;
+    font-weight: bolder;
+}
+
+nav span:nth-of-type(2) {
+    width: 82%;
+    font-size: 0.34rem;
+}
+
+.hasShop {
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 1rem;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.goBack img {
+    display: block;
+    width: 0.23rem;
+    height: 0.4rem;
+    margin: 0.16rem auto 0;
+}
+
+.user_info {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 0.2rem;
+    position: relative;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.delivery_way {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    width: 93.75%;
+    height: 1.5rem;
+    margin: 0.17rem auto;
+}
+
+.delivery_way {
+    color: #ffffff;
+    font-size: 0.20rem;
+}
+
+.delivery_way span {
+    display: block;
+    text-align: center;
+    line-height: 0.5rem;
+    color:black;
+}
+
+.total_price {
+    font-size: 0.28rem;
+}
+
+.English_introduce {
+    font-size: 0.3rem;
+}
+
+.detail_info {
+    float: left;
+    font-size: 0.24rem;
+}
+
+.nextType {
+    width: 100%;
+    height: 1.06rem;
+    margin-top: 0.2rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.nextType button {
+    width: 93.75%;
+    margin: 0.2rem auto 0;
+    display: block;
+    height: 0.66rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 0.3rem;
+}

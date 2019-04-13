@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir Next";
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    background-color: #efeff4;
+}
+
+nav {
+    width: 100%;
+    height: 0.72rem;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #FFFFFF;
+}
+
+nav span {
+    display: block;
+    line-height: 0.72rem;
+    float: left;
+    text-align: center;
+}
+
+nav span:nth-of-type(1) {
+    width: 9%;
+    font-size: 0.5rem;
+    font-weight: bolder;
+}
+
+nav span:nth-of-type(2) {
+    width: 82%;
+    font-size: 0.3rem;
+}
+
+nav span:nth-of-type(3) {
+    width: 9%;
+    font-size: 0.6rem;
+}
+
+.hasShop {
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 1rem;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.goBack img {
+    display: block;
+    width: 0.23rem;
+    height: 0.4rem;
+    margin: 0.16rem auto 0;
+}
+
+.myPoint {
+    height: 0.8rem;
+    background: #fff;
+    font-size: 0.24rem;
+}
+
+.myPoint div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.05rem 0.2rem 0.05rem 0.2rem;
+    height: 0.4rem;
+}
+.point,.point2{
+    float: right;
+}
+.registerTime,.point2{
+    color:#ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+

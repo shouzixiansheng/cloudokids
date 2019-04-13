@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    font-family:Avenir Next;
+    /*background-color: red;*/
+}
+img{
+    display: block;
+}
+.header {
+    width: 100%;
+    background: url(../img/newYearBanner.png) center no-repeat;
+    background-size: 7.5rem 3.5rem;
+    height:3.5rem;
+}
+.newYearContent-wrap{
+    width:100%;
+    /*height:10rem;*/
+}
+.newYearContent{
+    width:95%;
+    /*height:10rem;*/
+    /*background-color: gold;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title{
+    height:0.7rem;
+    border-bottom: 1px solid black;
+    /*background-color: green;*/
+    margin-top: 0.18rem;
+}
+.title span{
+    display: block;
+    line-height: 0.7rem;
+}
+.title span:nth-of-type(1){
+    font-size: 0.26rem;
+    float: left;
+}
+.title span:nth-of-type(2){
+    font-size: 0.16rem;
+    float: right;
+}
+
+.productContent{
+    width:100%;
+    overflow: hidden;
+}
+.img-wrap{
+    width:50%;
+    height:5.7rem;
+    float: left;
+}
+.productContent div img{
+    width:100%;
+}
+.img-wrap span{
+    display:block;
+    width:100%;
+}
+.brand{
+    font-size: 0.24rem;
+}
+.brandName{
+    font-size: 0.2rem;
+}
+.line{
+    width: 100%;
+    height:5px!important;
+    background: url(../img/smallLinex.png) center no-repeat;
+    background-size: 3.04rem 0.02rem;
+}
+.productPrice{
+    font-size: 0.26rem;
+}
+.brand,.brandName,.productPrice{
+    display:block;
+    height:0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.brandName{
+    height:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

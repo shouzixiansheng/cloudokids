@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_nav {
+    width: 100%;
+    height: 1rem;
+    background: #000;
+    font-size: 0.24rem;
+    display: -webkit-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.footer_nav a {
+    display: block;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    height: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.footer_nav a img {
+    display: block;
+    margin: 0.12rem auto 0;
+}
+
+.footer_nav a span {
+    display: block;
+    height:0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+
+.footer_nav img {
+    width: 0.48rem;
+    height:0.48rem;
+}

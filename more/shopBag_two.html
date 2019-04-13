@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结算</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="../css/css/account_two.css">
+    <script src="../js/js/rem.js"></script>
+</head>
+<body>
+<div class="imFixed">
+    <nav>
+        <span class="goBack" onclick="goBack()"><img src="../img/back@2x.png" alt=""></span>结算
+        <script>
+            function goBack() {
+                window.location.href=("../shopBag.html");
+            }
+        </script>
+    </nav>
+    <div class="hasShop">
+        结算<span>1/3</span>项
+    </div>
+</div>
+<div class="hasShop_show">
+    <ul class="container">
+        <li class="model">
+            <div class="cloth_show"><img src="" alt=""></div>
+            <div class="cloth_introduce">
+                <div class="brand"></div>
+                <div class="myName"></div>
+                <div class="size"><span class="buyerSize"></span><span class="postWay"></span></div>
+                <div class="price_wrap"><span class="price"></span>×<span class="quantity"></span></div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="privilege">
+    <div class="gift">礼品卡</div>
+    <div class="gift_number">
+        <input type="text" class="number giftCode" value="请输入">
+        <button class="apply giftApply">应用</button>
+        <div class="giftDelete">移除</div>
+    </div>
+    <div class="gift">折扣码</div>
+    <div class="gift_number gift_number_two">
+        <input type="text" class="number discountCode" value="请输入">
+        <button class="apply discountApply">应用</button>
+        <div class="discountDelete">移除</div>
+    </div>
+</div>
+<ul class="product">
+    <li>商品总额<span class="total_price"></span></li>
+    <li>配送<span class="delivery"></span></li>
+    <li>优惠<span class="favorable"></span></li>
+    <li>礼品卡<span class="giftCard"></span></li>
+</ul>
+<span class="formTotal">
+    订单总额<span class="form_price">在支付时显示总额...</span>
+</span>
+<div class="nextType">
+    <button class="goNext">下一步</button>
+</div>
+<div class="maskLayerWrap">
+    <div class="maskLayer"></div>
+</div>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/js/shopBag_two.js"></script>
+</body>
+</html>

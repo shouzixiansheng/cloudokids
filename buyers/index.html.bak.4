@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>买手</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=0.7,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/buyer.css">
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/swiper-3.4.1.jquery.min.js"></script>
+    <script src="js/buyer.js"></script>
+</head>
+<body style="overflow-x: hidden">
+<!--banner轮播部分-->
+<div class="swiper-container banner_content swiper-container_one">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="http://h5.cloudokids.cn/buyers/focus.html" class="bannerImg"><img src="image/banner11_02x.jpg" alt=""></a></div>
+        <!--<div class="swiper-slide"><a href=""><img src="image/banner2_02.png" alt=""></a></div>-->
+    </div>
+    <!-- 分页器 -->
+    <!--<div class="swiper-pagination"></div>-->
+</div>
+<!--推荐单品部分-->
+<div class="recommendItem_wrap">
+    <nav>推荐单品</nav>
+    <div class="popular">
+
+        <div class="popular_left commenInfo">
+            <div class="headPortrait">
+                <a href="cloudokids://buyer/6356"><img src="image/yufengLi.png" alt=""><span>Yufeng Li</span></a>
+            </div>
+            <div class="productIntroduce">
+                <span>潮流炫酷</span>
+                <span>随意搭配都有型</span>
+            </div>
+            <div class="img_wrap">
+                <a href="cloudokids://product/15617"><img src="image/cloth-1.png" alt=""></a>
+            </div>
+        </div>
+
+
+        <div class="popular_right_top commenInfo">
+            <div class="headPortrait_right">
+                <a href="cloudokids://buyer/14843"><img src="image/DanLiu.png" alt=""><span>Dan Liu</span></a>
+            </div>
+            <div class="productIntroduce_two">
+                <span>标志性动作</span>
+                <span>米妮的碰撞</span>
+            </div>
+            <div class="beauty_wrap">
+                <a href="cloudokids://product/15587"><img src="image/cloth-2.png" alt=""></a>
+            </div>
+        </div>
+
+
+        <div class="popular_right_bottom commenInfo">
+            <div class="headPortrait_right">
+                <a href="cloudokids://buyer/3722"><img src="image/xiaohuaWu.png" alt=""><span>Xiaohua Wu</span></a>
+            </div>
+            <div class="productIntroduce_two">
+                <span>轻松掌控</span>
+                <span>与众不同</span>
+            </div>
+            <div class="beauty_wrap">
+                <a href="cloudokids://product/14216"><img src="image/footer-2.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--买手团队-->
+<div class="shopper_team">
+    <div class="shopper_team_top">
+        <span>买手团队</span>
+        <span class="learn_more"><a href="http://h5.cloudokids.cn/buyers/shoperTeam.html">更多</a></span>
+    </div>
+    <!--买手团队轮播-->
+    <div class="swiper-container swiper-container_two">
+        <div class="swiper-wrapper" style="text-align: center">
+            <div class="swiper-slide box_wrap">
+                <div class="box">
+                    <div class="team_img_wraper">
+                        <img src="image/_10.png" alt="">
+                        <span style="width:120%;margin-left: -10%;">Pinky Cai</span>
+                        <!--<span>Pinky</span>-->
+                    </div>
+                    <div class="team_img_wraper">
+                        <img src="image/_12.png" alt="">
+                        <span>黄珍玉</span>
+                        <span class="speciall">Queenie</span>
+                    </div>
+                    <div class="team_img_wraper">
+                        <img src="image/_18.png" alt="">
+                        <span style="width:120%;margin-left: -10%;">Karen Jiang</span>
+                        <!--<span>Karen</span>-->
+                    </div>
+                    <div class="team_img_wraper">
+                        <img src="image/_20.png" alt="">
+                        <span>徐慎一</span>
+                        <span>Sanny</span>
+                    </div>
+                    <div class="team_img_wraper">
+                        <img src="image/_15.png" alt="">
+                        <span>王粲粲</span>
+                        <span>Celia wang</span>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="swiper-slide" style="background:#e2ffff"></div>-->
+        </div>
+        <!-- 导航按钮 待定-->
+        <!--<div class="swiper-button-prev"></div>-->
+        <!--<div class="swiper-button-next"></div>-->
+    </div>
+</div>
+<!--买手说部分-->
+<div class="shoperSay">
+    <span>买手说</span>
+</div>
+<div class="beautyshow">
+    <a href="http://h5.cloudokids.cn/buyers/nobis.html"><img src="image/beautyShow101.png" alt=""></a>
+	<div class="subject_one">
+        <span>NOBIS羽绒服 中国首发</span>
+    </div>
+</div>
+<div class="beautyshow">
+    <a href="http://h5.cloudokids.cn/buyers/channelTwo.html"><img src="image/footer_051.png" alt=""></a>
+    <div class="subject_one">
+        <span>巧用红色 点缀新年</span>
+    </div>
+</div>
+<div class="beautyshow">
+    <a href="http://h5.cloudokids.cn/buyers/channelFour.html"><img src="image/beautyshow-121.png" alt=""></a>
+    <div class="subject_one">
+        <span>帽衫搭配秘籍快get起来</span>
+    </div>
+</div>
+<div class="beautyshow">
+    <a href="http://h5.cloudokids.cn/buyers/channel.html"><img src="image/beautyshow-111.png" alt=""></a>
+    <div class="subject_one">
+        <span>抓住2017年的流行色</span>
+    </div>
+</div>
+
+<!--买手说部分结束-->
+<!--推荐买手部分-->
+<div class="recommend_wrap">
+    <div class="recommend">
+        <nav>推荐买手</nav>
+    </div>
+    <div class="shopAdvice">
+        <div class="attention">
+            <div><a href="cloudokids://buyer/8673"><img src="image/h5head_033.png" alt=""></a></div>
+            <div><a href="cloudokids://buyer/8673"><span>Hui Wang</span></a>
+                <!--<div class="attentionMe">关注</div>-->
+            </div>
+            <div class="words wordSpeciall"><span>最爱古灵精怪，天马行空的设计，怎么搭配就得看心情了。</span></div>
+        </div>
+        <div class="myBrand">
+            <span>我的品牌:</span><span><a href="cloudokids://designer/71" class="colorReplace">Little Eleven Paris</a></span><span><a href="cloudokids://designer/20" class="colorReplace"> CAROLINE BOSMANS</a></span>
+        </div>
+        <div class="brandShow">
+            <div style="">
+                <a href="cloudokids://product/15588"><img src="image/shirts_07.png" alt=""></a>
+                <span class="cloth-name">米奇印花浅灰色T恤</span>
+                <span class="cloth-brand">LITTLE ELEVEN PARIS</span>
+                <span class="price"><span>¥152.88</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/14574"><img src="image/shirts_09.png" alt=""></a>
+                <span class="cloth-name">怪兽绿色T恤</span>
+                <span class="cloth-brand">FENDI</span>
+                <span class="price"><span>¥819.00</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/14354"><img src="image/shirts_11.png" alt=""></a>
+                <span class="cloth-name">彩虹亮片黑色T恤</span>
+                <span class="cloth-brand">CAROLINE BOSMANS</span>
+                <span class="price"><span>¥464.10</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="line"></div>
+<div class="BigBox">
+    <div class="shopAdvice">
+        <div class="attention">
+            <div><a href="cloudokids://buyer/3483"><img src="image/h5head_034.png" alt=""></a></div>
+            <div><a href="cloudokids://buyer/3483"><span>Qianman Cao</span></a>
+                <!--<span class="attentionMe">关注</span>-->
+            </div>
+            <div class="words wordsMore"><span>刚出生婴儿的奶香味，咿咿呀呀的小模样，我要把宝贝最柔软，最可爱的第一件衣服，推荐给你。</span></div>
+        </div>
+        <div class="myBrand">
+            <span>我的品牌:</span><span><a href="cloudokids://designer/143" class="colorReplace">YOUNG VERSACE</a></span><span><a href="cloudokids://designer/56" class="colorReplace">IL GUFO</a></span>
+            <span><a href="cloudokids://designer/38" class="colorReplace">EMU AUSTRALIA</a></span>
+        </div>
+        <div class="brandShow">
+            <div style="">
+                <a href="cloudokids://product/14831"><img src="image/clothReplace-2.png" alt=""></a>
+                <span class="cloth-name">幸运包臀衣礼盒</span>
+                <span class="cloth-brand">DOLCE & GABBANA</span>
+                <span class="price"><span>¥1410.50</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/11277"><img src="image/newcloth-2.png" alt=""></a>
+                <span class="cloth-name">婴儿围兜帽子枫叶礼盒</span>
+                <span class="cloth-brand">DSQUARED2</span>
+                <span class="price"><span>¥589.68</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/14999"><img src="image/clothReplace1.png" alt=""></a>
+                <span class="cloth-name">灰条纹拼工装裤连体衣</span>
+                <span class="cloth-brand">IL GUFO</span>
+                <span class="price"><span>¥343.98</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="line"></div>
+<div class="BigBox">
+    <div class="shopAdvice">
+        <div class="attention">
+            <div><a href="cloudokids://buyer/8792"><img src="image/h5head_035.png" alt=""></a></div>
+            <div><a href="cloudokids://buyer/8792"><span>Mengxia Ma</span></a>
+                <!--<span class="attentionMe">关注</span>-->
+            </div>
+            <div class="words wordsMore"><span>怎么办生日会，婚礼要穿什么出席？不知道衣柜里的衣服合不合心意，那来看看我的吧，为Party而生。</span></div>
+        </div>
+        <div class="myBrand">
+            <span>我的品牌:</span><span><a href="cloudokids://designer/92" class="colorReplace">MISCHKA AOKI</a></span>
+            <span><a href="cloudokids://designer/31" class="colorReplace">DOLCE & GABBANA</a></span>
+        </div>
+        <div class="brandShow">
+            <div style="">
+                <a href="cloudokids://product/12477"><img src="image/Party-4.png" alt=""></a>
+                <span class="cloth-name">珍珠薄纱百褶裙</span>
+                <span class="cloth-brand">MISCHKA AOKI</span>
+                <span class="price"><span>¥13204.10</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/14640"><img src="image/party-5.png" alt=""></a>
+                <span class="cloth-name">瓢虫印花蓝色连衣裙</span>
+                <span class="cloth-brand">GUCCI</span>
+                <span class="price"><span>¥4236.05</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/17021"><img src="image/party-6.png" alt=""></a>
+                <span class="cloth-name">男孩经典黑色外套</span>
+                <span class="cloth-brand">DOLCE & GABBANA</span>
+                <span class="price"><span>¥4231.50</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="line"></div>
+<div class="BigBox">
+    <div class="shopAdvice">
+        <div class="attention">
+            <div><a href="cloudokids://buyer/14520"><img src="image/h5head_036.png" alt=""></a></div>
+            <div><a href="cloudokids://buyer/14520"><span>Lingling Tang</span></a>
+                <!--<span class="attentionMe">关注</span>-->
+            </div>
+            <div class="words wordsMore"><span>每天都想让儿子帅帅的出门，超多搭配小技巧学起来，想让宝贝穿的舒服又有范儿就来关注我吧。</span></div>
+        </div>
+        <div class="myBrand">
+            <span>我的品牌:</span>
+            <span><a href="cloudokids://designer/16" class="colorReplace">BOSS</a></span>
+            <span><a href="cloudokids://designer/30" class="colorReplace">DIESEL</a></span>
+            <span><a href="cloudokids://designer/34" class="colorReplace">DSQUARED2</a></span>
+        </div>
+        <div class="brandShow">
+            <div style="">
+                <a href="cloudokids://product/10236"><img src="image/shirts-8.png" alt=""></a>
+                <span class="cloth-name">夏威夷印花白色POLO衫</span>
+                <span class="cloth-brand">BOSS</span>
+                <span class="price"><span>¥316.68</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/14309"><img src="image/shirts-9.png" alt=""></a>
+                <span class="cloth-name">“慢跑”蓝色牛仔裤</span>
+                <span class="cloth-brand">DIESEL</span>
+                <span class="price"><span>¥502.32</span></span>
+            </div>
+            <div style="">
+                <a href="cloudokids://product/15387"><img src="image/shirts-10.png" alt=""></a>
+                <span class="cloth-name">“ROSS”镶嵌黑色运动鞋</span>
+                <span class="cloth-brand">PHILIPP PLEIN</span>
+                <span class="price"><span>¥1414.14</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--推荐买手结束-->
+<!--买手搭配部分-->
+<nav class="shoperMatch"><span>买手搭配</span></nav>
+<div class="matchContent-wrap heightMust">
+    <div class="matchContent">
+        <div class="matchHeader">
+            <a href="cloudokids://buyer/3487"><span><img src="image/shoperHead1.png" alt=""></span><span>Dan Wang</span></a>
+        </div>
+        <div class="matchBanner">
+            <img src="image/bannerMatch.png" alt="">
+        </div>
+        <div class="matchShow">
+            <div class="beautyMatch">
+                <a href="cloudokids://product/14161"> <img src="image/beautyMatch1.png" alt=""></a>
+                <span class="matchBrand">软羊毛白色背心</span>
+                <span class="matchName">BELLE ENFANT</span>
+                <span class="matchPrice"><span>¥316.68</span></span>
+            </div>
+            <div class="beautyMatch marginLeft">
+                <a href="cloudokids://product/14223"><img src="image/beautyMatch2.png" alt=""></a>
+                <span class="matchBrand">布朗格子衬衫</span>
+                <span class="matchName">CARAMEL</span>
+                <span class="matchPrice"><span>¥327.60</span></span>
+            </div>
+            <div class="beautyMatch marginLeft">
+                <a href="cloudokids://product/14920"><img src="image/beautyMatch3.png" alt=""></a>
+                <span class="matchBrand">浅粉色长裤</span>
+                <span class="matchName">IMPS & ELFS</span>
+                <span class="matchPrice"><span>¥216.58</span></span>
+            </div>
+            <div class="beautyMatch marginLeft">
+                <a href="cloudokids://product/15741"><img src="image/beautyMatch4.png" alt=""></a>
+                <span class="matchBrand">蝴蝶结粉色发箍</span>
+                <div class="matchName lengthName"><div class="moresmallSize">HUCKLEBONES LONDON</div></div>
+                <span class="matchPrice topLess"><span>¥216.58</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="matchContentTwo-wrap">
+    <div class="matchContentTwo">
+        <div class="userPic">
+            <a href="cloudokids://buyer/4687"><img src="image/shoperHead2.png" alt=""><span>Yang Lu</span></a>
+        </div>
+        <div class="beautyCloth">
+            <div class="beautyCloth-left">
+                <a href="cloudokids://product/14028"><img src="image/03 (1).png" alt=""></a>
+                <span class="beautyName">针织灰色毛衣</span>
+                <span class="beautyBrand">PALPHLAUREN</span>
+                <span class="beautyPrice"><span>¥216.58</span></span>
+            </div>
+            <div class="beautyCloth-right">
+                <div class="smallCloth" style="margin-top: 0">
+                    <a href="cloudokids://product/17010"><img src="image/smallCloth1.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize">细条纹黑色裤子</span></div>
+                        <div>EMILE ET IDA</div>
+                        <div class="smallPrice"><span>¥216.58</span></div>
+                    </div>
+                </div>
+                <div class="smallCloth">
+                    <a href="cloudokids://product/16177"><img src="image/smallCloth22.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize" style="width:120%;margin-left: -10%;">“CALI”象牙色围巾</span></div>
+                        <div>TREEHOUSE</div>
+                        <div class="smallPrice"><span>¥109.00</span></div>
+                    </div>
+                </div>
+                <div class="smallCloth">
+                    <a href="cloudokids://product/14132"><img src="image/smallCloth3.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize">绒面黑色运动鞋</span></div>
+                        <div>BABYWALKER</div>
+                        <div class="smallPrice"><span>¥458.64</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="introduceMore">
+            <div>纯色毛衣一直都是百搭的代言词，看似简单</div>
+            <div>却是经典单品，暖男都这么穿啦</div>
+        </div>
+    </div>
+</div>
+<div class="matchContentTwo-wrap">
+    <div class="matchContentTwo">
+        <div class="userPic">
+            <a href="cloudokids://buyer/260969"><img src="image/shoperHead3.png" alt=""><span>Xiao Wang</span></a>
+        </div>
+        <div class="beautyCloth">
+            <div class="beautyCloth-left">
+                <a href="cloudokids://product/16218"><img src="image/03 (2).png" alt=""></a>
+                <span class="beautyName">五角星印花衬衫</span>
+                <span class="beautyBrand">LOUIS LOUISE</span>
+                <span class="beautyPrice"><span>¥245.70</span></span>
+            </div>
+            <div class="beautyCloth-right">
+                <div class="smallCloth" style="margin-top: 0">
+                    <a href="cloudokids://product/16759"><img src="image/smallCloth4.png" alt=""></a>
+                    <div class="introBox">
+                        <div class="speBox"><span class="smallSize">吉他帆布袋</span></div>
+                        <div><div>STELLA MCCARTNEY KIDS</div></div>
+                        <div class="smallPrice"><span>¥1274.00</span></div>
+                    </div>
+                </div>
+                <div class="smallCloth">
+                    <a href="cloudokids://product/10002"><img src="image/replaceShoes.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize" style="width:120%;margin-left: -10%;">蛇纹黑色便鞋</span></div>
+                        <div>AKID</div>
+                        <div class="smallPrice"><span>¥591.50</span></div>
+                    </div>
+                </div>
+                <div class="smallCloth">
+                    <a href="cloudokids://product/15955"><img src="image/smallCloth66.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize">芥末黄长裤</span></div>
+                        <div>MILK ON THE ROCKS</div>
+                        <div class="smallPrice"><span>¥327.60</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="introduceMore">
+            <div>选择一组五角星和吉他的活波图案，加上</div>
+            <div>棉质触感，让宝宝既舒服又夺目！</div>
+        </div>
+    </div>
+</div>
+<div class="matchContentTwo-wrap">
+    <div class="matchContentTwo">
+        <div class="userPic">
+            <a href="cloudokids://buyer/2597"><img src="image/shoperHead4.png" alt=""><span>Nicole li</span></a>
+        </div>
+        <div class="beautyCloth">
+            <div class="beautyCloth-left">
+                <a href="cloudokids://product/12028"><img src="image/03 (3).png" alt=""></a>
+                <span class="beautyName">“HARA”灰色套衫</span>
+                <span class="beautyBrand">TREEHOUSE</span>
+                <span class="beautyPrice"><span>¥305.76</span></span>
+            </div>
+            <div class="beautyCloth-right">
+                <div class="smallCloth" style="margin-top: 0">
+                    <a href="cloudokids://product/14472"><img src="image/smallCloth77.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize">圆点印花长袖衬衫</span></div>
+                        <div>EMILE ET IDA</div>
+                        <div class="smallPrice"><span>¥338.52</span></div>
+                    </div>
+                </div>
+                <div class="smallCloth">
+                    <a href="cloudokids://product/14572"><img src="image/smallCloth88.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize" style="width:120%;margin-left: -10%;">蓝色牛仔裤</span></div>
+                        <div>FENDI</div>
+                        <div class="smallPrice"><span>¥1037.40</span></div>
+                    </div>
+                </div>
+                <div class="smallCloth">
+                    <a href="cloudokids://product/15892"><img src="image/smallCloth9.png" alt=""></a>
+                    <div class="introBox">
+                        <div><span class="smallSize">布洛克棕色鞋</span></div>
+                        <div>YOUNG SOLES</div>
+                        <div class="smallPrice"><span>¥433.16</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="introduceMore">
+            <div>这次搭配的是都市休闲风格，波点衬衣与同色系</div>
+            <div>的布洛克皮鞋，增添复古文艺范儿。</div>
+        </div>
+    </div>
+</div>
+
+<!--瀑布流商品展示-->
+<div class="content">
+    <div class="largeMatch-wrap">
+        <div class="largeMatch">
+            <div class="userMatch">
+                <a href=""><div class="imCircle"></div><span>Little BaBy</span></a>
+            </div>
+            <div class="bigPicShow">
+                <a href="http://h5.cloudokids.cn/buyers/babyOne.html"><img src="image/bigPicShow1.png" alt=""></a>
+            </div>
+            <div class="bigPicIntroduce">
+                <div class="beauty-introduce" style="width: 93%">从风衣到风格，为宝贝复制经典，英伦风演绎时尚气质。</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

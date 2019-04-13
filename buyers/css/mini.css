@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Avenir Next";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    height: 4.45rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 4.45rem;
+}
+
+aside {
+    width: 92%;
+    font-size: 0.2rem;
+    text-align: center;
+    height: 0.8rem;
+    margin: 0.35rem auto 0;
+}
+
+.singleIntro {
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0.9rem;
+    padding-bottom: 0.05rem;
+    border-bottom: 1px dashed #dfdfdf;
+    position: relative;
+}
+
+.imAbsolute {
+    position: absolute;
+    width: 0.2rem;
+    height: 0.08rem;
+    background: black;
+    left: 50%;
+    margin-left: -0.1rem;
+    bottom: -0.04rem;
+}
+
+.coverAll {
+    width: 92%;
+    height: 5.6rem;
+    margin: 0.55rem auto 0.55rem;
+}
+
+.coverLeft, .coverRight {
+    height: 5.6rem;
+}
+
+.coverLeft {
+    width: 43.5%;
+    float: left;
+}
+
+.coverRight {
+    width: 47.5%;
+    float: right;
+    position: relative;
+}
+
+.coverRight img {
+    width: 100%;
+    height: 5.6rem;
+}
+
+.coverLeft div:nth-of-type(1) {
+    font-weight: bolder;
+    font-size: 0.2rem;
+    height: 0.3rem;
+    margin-top: 0.45rem;
+}
+
+.coverLeft div:nth-of-type(2) {
+    font-size: 0.2rem;
+    height: 1.77rem;
+    padding-top: 0.2rem;
+}
+
+.coverLeft div:nth-of-type(3) {
+    height: 2.41rem;
+}
+
+.coverLeft div:nth-of-type(3) img {
+    width: 100%;
+    height: 2.41rem;
+}
+
+.maxLove {
+    width: 100%;
+    top: 0.25rem;
+    position: absolute;
+    left: 0;
+    font-size: 0.24rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*推荐*/
+.recommendContent, .recommendContent2 {
+    width: 100%;
+}
+
+.recommendContent a {
+    color: #000;
+}
+
+.recommend {
+    width: 92%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+}
+
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+
+.headPortrait div {
+    float: left;
+}
+
+.recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+
+/*推荐结束*/
+.magicShoes {
+    width: 92%;
+    height: 6.35rem;
+    margin: 0.65rem auto 0.65rem;
+}
+
+.magicLeft {
+    width: 40%;
+    height: 6.35rem;
+    float: left;
+}
+
+.magicLeft img {
+    width: 100%;
+    height: 6.35rem;
+}
+
+.magicRight {
+    width: 60%;
+    height: 6.35rem;
+    float: right;
+}
+
+.magicRight div:nth-of-type(1) {
+    height: 0.3rem;
+    font-size: 0.2rem;
+    font-weight: bolder;
+}
+
+.magicRight div:nth-of-type(2) {
+    height: 1.4rem;
+    font-size: 0.2rem;
+    margin-top: 0.1rem;
+}
+
+.magicRight div:nth-of-type(3) {
+    height: 3.94rem;
+    margin-top: 0.25rem;
+}
+
+.magicRight div:nth-of-type(3) img {
+    width: 100%;
+    height: 3.94rem;
+
+}
+
+.childhood {
+    width: 92%;
+    height: 12.4rem;
+    margin: 0.6rem auto 0.6rem;
+}
+
+.childTop {
+    height: 6.2rem;
+}
+
+.childBottom {
+    height: 6.2rem;
+}
+
+.childTop-Left {
+    width: 52%;
+    height: 5.6rem;
+    float: left;
+}
+
+.childTop-Right {
+    width: 42%;
+    float: right;
+}
+
+.childTop-Left img {
+    width: 100%;
+    height: 5.6rem;
+}
+
+.childTop-Right img {
+    width: 100%;
+    height: 3.6rem;
+    margin-top: 0.5rem;
+}
+
+.childTop-Right > div {
+    font-size: 0.2rem;
+    position: relative;
+}
+
+.childTop-Right > div > div {
+    width: 100%;
+    font-size: 0.2rem;
+    height: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: -0.5rem;
+    text-align: left;
+    line-height: 0.5rem;
+    font-weight: bolder;
+}
+
+.childBottom .childTop-Left {
+    float: right;
+}
+
+.childBottom .childTop-Right {
+    float: left;
+}
+
+.darkness {
+    text-align: right !important;
+}
+
+.sweetMeet {
+    width: 92%;
+    height: 6.25rem;
+    margin: 0.7rem auto 0.7rem;
+}
+
+.sweetMeet-left {
+    width: 32%;
+    height: 6.25rem;
+    float: left;
+}
+
+.sweetMeet-right {
+    width: 57%;
+    height: 6.25rem;
+    float: right;
+}
+
+.sweetMeet-right img {
+    width: 100%;
+    height: 6.25rem;
+}
+
+.sweetMeet-left div:nth-of-type(1) {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    font-weight: bolder;
+    margin-top: 0.9rem;
+}
+.sweetMeet-left div:nth-of-type(2) {
+    font-size: 0.2rem;
+}
+.sweetMeet-left div:nth-of-type(3) {
+    font-size: 0.2rem;
+    height:1.73rem;
+    margin-top: 0.1rem;
+}
+.sweetMeet-left div:nth-of-type(3) img {
+    width:100%;
+    height:1.73rem;
+}
+.moreIntroduce{
+    display: block;
+    width:92%;
+    font-size: 0.2rem;
+    text-align: center;
+    margin: 0.62rem auto 0.62rem;
+}
+.beautyFashion{
+    width:92%;
+    height:4.9rem;
+    margin: 0 auto;
+}
+.beautyFashion img{
+    width:100%;
+    height:4.9rem;
+}
+.imLogo{
+    margin-top: 1.35rem;
+    height:0.54rem;
+    background: url(../img/sweetLogo.jpg) center no-repeat;
+    background-size: 7.5rem 0.54rem;
+}
+.QRCode{
+    height:2.18rem;
+    margin-top: 0.3rem;
+}
+.QRCode img{
+    width: 2.3rem;
+    height:2.18rem;
+    margin: 0 auto;
+}
+.app,.knowMore{
+    display: block;
+    width:100%;
+    font-weight: bolder;
+    text-align: center;
+    color:#dfdfdf;
+    font-size: 0.2rem;
+}
+.app{
+    height:0.66rem;
+    line-height: 0.66rem;
+}
+.knowMore{
+    color:#000000;
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Avenir Next";
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+.topFixed {
+    height: 1rem;
+    width: 100%;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    background: #fff;
+}
+
+.swiper-container_two {
+    height: 1rem;
+}
+
+.singleLi {
+    font-size: 0.24rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.singleLi span{
+    border-bottom: 1px solid #bababa;
+    padding: 0 0.2rem 0.1rem 0.2rem;
+}
+.singleLi .boldSpan{
+    border-bottom: 2px solid #000;
+}
+.recommendPro {
+    width: 92%;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+.imModel {
+    width: 50%;
+    height: 4.5rem;
+    float: left;
+}
+
+p {
+    width: 87%;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    line-height: 0.46rem;
+    padding: 0.3rem 0 0 0;
+    text-align: justify;
+}
+
+.imModel a {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.imModel img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.commonInfo {
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.imModel div:nth-of-type(1) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.imModel div:nth-of-type(2) {
+    width: 90%;
+    height: 0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.2rem;
+    white-space: nowrap;
+}
+
+.banner {
+    width: 100%;
+}
+.banner img{
+    display: block;
+    width: 100%;
+}
+.imModel div:nth-of-type(3) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.2rem;
+}
+
+.dropload-up, .dropload-down {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    font-size: 0.24rem;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.dropload-down {
+    height: 50px;
+    width: 100%;
+}
+
+.dropload-refresh, .dropload-update, .dropload-load, .dropload-noData {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.dropload-load .loading {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 6px;
+    border: 2px solid #666;
+    border-bottom-color: transparent;
+    vertical-align: middle;
+    -webkit-animation: rotate 0.75s linear infinite;
+    animation: rotate 0.75s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.opacity {
+    -webkit-animation: opacity 0.3s linear;
+    animation: opacity 0.3s linear;
+}
+
+@-webkit-keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*插件结束*/

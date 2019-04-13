@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-family: "Avenir Next";
+}
+img{
+    display: block;
+}
+.banner{
+    width:100%;
+}
+.banner img{
+    width:100%;
+}
+.GucciIntro{
+    width:100%;
+    height:2.62rem;
+    border-bottom: 0.16rem solid #dfdfdf;
+}
+.GucciIntro h2{
+    font-size: 0.36rem;
+    width: 91.5%;
+    margin: 0.6rem auto 0;
+}
+.GucciIntro p{
+    width:91.5%;
+    margin: 0.3rem auto 0;
+    height:1.2rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    text-align: justify;
+}
+.recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+.bgFrame {
+    width: 100%;
+    height: 1.03rem;
+    margin-top: 0.52rem;
+}
+
+.bgFrame div{
+    width: 2.22rem;
+    margin: 0 auto;
+    font-size: 0.307rem;
+    height: 0.68rem;
+    background: url(../img/CartoonBg.png);
+    background-size: 2.22rem 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+.same{
+    width: 91.5%;
+    margin: 0.6rem auto 0;
+}
+.same .title{
+    width: 100%;
+    height: 0.8rem;
+}
+.same span{
+    font-size: 0.4rem;
+    font-weight: bold;
+    line-height: 0.8rem;
+    float: left;
+}
+.same p{
+    float: left;
+    width: 100%;
+    margin-top: 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    text-align: justify;
+}
+.gucciShow{
+    width:100%;
+    height:7.3rem;
+    border-bottom: 0.16rem solid #dfdfdf;
+    overflow: hidden;
+}
+.gucciShow2{
+    border: none;
+}
+.contentShow{
+    width:91.5%;
+    height:6.04rem;
+    margin: 0.66rem auto 0;
+}
+.img-wrap,.img-wrap2{
+    float: left;
+    width: 46%;
+}
+.img-wrap2{
+    float: right;
+}
+.img-wrap img{
+    width:100%;
+}
+.img-wrap2 img{
+    width:100%;
+}
+.imgIntro,.imgIntro2{
+    width: 50%;
+    float: right;
+}
+.imgIntro2{
+    float: left;
+}
+.imLink{
+    display: block;
+    width:100%;
+    height:6.04rem;
+    color:#000;
+}
+.stitchWork{
+    width:100%;
+    height:0.93rem;
+}
+.imStitch{
+    margin: 0.19rem auto 0;
+    font-size: 0.32rem;
+    text-align: center;
+    color:#000000;
+    line-height: 0.44rem;
+    font-weight: bold;
+}
+.line{
+    width:100%;
+    height:8px;
+    position: relative;
+}
+.triangle{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 8px solid #000;
+    border-top: transparent;
+    border-left: transparent;
+    width:8px;
+    height:8px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top:-4px;
+}
+.imgIntro p{
+    height:1.05rem;
+    text-align: justify;
+    font-size: 0.22rem;
+    line-height: 0.26rem;
+    padding-top: 0.25rem;
+    color:#787878
+}
+.imgIntro2 p{
+    height:1.05rem;
+    text-align: justify;
+    font-size: 0.22rem;
+    line-height: 0.26rem;
+    padding-top: 0.25rem;
+    color:#787878
+}
+.imCloth{
+    height:2.25rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+.imCloth img{
+    height:2.25rem;
+    margin: 0 auto;
+}
+.imName{
+    height:0.48rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.18rem;
+    color:#787878;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imPrice{
+    height:0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.32rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.click{
+    width:1.16rem;
+    height:0.4rem;
+    margin: 0.2rem auto 0;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    color:#fff;
+    background-color: #000;
+}
+.buyerMatch{
+    height:0.72rem;
+    background: #dfdfdf;
+}
+.match{
+    width:3.68rem;
+    height:0.72rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.72rem;
+    color:#787878;
+    margin: 0 auto;
+    position: relative;
+}
+.matchOne,.matchTwo{
+    position: absolute;
+    height:0.34rem;
+    width: 0.72rem;
+    border-bottom: 1px solid #787878;
+    top:0;
+}
+.matchOne{
+    left:0;
+}
+.matchTwo{
+    right:0;
+}
+
+/*推荐买手搭配*/
+.recommendContent {
+    width: 100%;
+}
+.recommendContent a{
+    color:#000;
+}
+.recommend {
+    width: 92%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+}
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+.headPortrait div {
+    float: left;
+}
+.recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+/*推荐结束*/
+
+.gucciContent{
+    width:100%;
+    margin-top: 0.5rem;
+}
+.imModel{
+    width:50%;
+    float: left;
+}
+.imModel a{
+    display: block;
+    width:3rem;
+    height:3rem;
+    margin: 0 auto;
+}
+.imModel img{
+    width:3rem;
+    height:3rem;
+}
+.imModel span{
+    display: block;
+    height:0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.designer{
+    margin-top: 0.05rem;
+    font-size: 0.24rem;
+}
+.proName{
+    width:90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.2rem;
+}
+.price{
+    font-size: 0.2rem;
+}

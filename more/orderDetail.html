@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单详情</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="../css/css/orderDetail.css">
+    <script src="../js/js/rem.js"></script>
+</head>
+<body>
+<nav>
+    <span class="goBack" onclick="goBack()"><img src="../img/back@2x.png" alt=""></span><span
+        class="address"></span>
+    <script>
+        function goBack() {
+            window.history.go(-1);
+        }
+    </script>
+</nav>
+<div class="mainContent">
+    <div class="orderStatus">
+        <div>订单状态</div>
+        <div>支付状态</div>
+        <div>发货状态</div>
+    </div>
+    <div class="newOrderStatus">
+        <div><div class="statusOne"></div><div class="leftBorder"></div></div>
+        <div><div class="statusTwo"></div><div class="leftBorder"></div></div>
+        <div><div class="statusThree"></div><div></div></div>
+    </div>
+    <div class="bgGray"></div>
+    <div class="hasShop_show">
+        <ul class="container">
+            <li class="imModel">
+                <div class="cloth_show"></div>
+                <div class="cloth_introduce">
+                    <div class="brand"></div>
+                    <div class="myName"></div>
+                    <div class="size"><span class="buyerSize"></span><span class="postWay"></span></div>
+                    <div class="price_wrap"><span class="price"></span>×<span class="quantity"></span></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <ul class="user_info">
+        <li>配送方式：<span class="postWayTwo"></span></li>
+        <li>配送：<span><span class="lastName"></span><span class="firstName"></span><span class="phoneNumber"></span></span>
+        </li>
+        <li><span class="addressOne"></span>&nbsp;&nbsp;<span class="addressTwo"></span></li>
+        <li><span class="city"></span>&nbsp;&nbsp;<span class="postCode"></span></li>
+    </ul>
+    <ul class="pay_way">
+        <li><span class="applyWay">支付方式</span><span></span><span class="circle circle2 isApply"></span></li>
+    </ul>
+    <ul class="product_detail">
+        <li>商品总额<span class="allPrice"></span></li>
+        <li>配送<span class="postMethod"></span></li>
+        <li>优惠<span class="disCount"></span></li>
+        <li>礼品卡<span class="giftCard"></span></li>
+        <li>积分<span class="userPoint"></span></li>
+    </ul>
+    <div class="total_price">
+        <div><span>订单总额</span><span class="userPay"></span></div>
+    </div>
+    <div class="conform_info">
+        <button class="upLoad">重新支付</button>
+    </div>
+
+
+
+</div>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/js/orderDetail.js"></script>
+</body>
+</html>

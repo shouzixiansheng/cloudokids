@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 300px;
+    background: #d2d2d2;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+img {
+    display: block;
+}
+
+.header {
+    width: 1333px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 145px;
+    height: 185px;
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/logo.png) no-repeat;
+    margin: 58px 0 0 162px;
+    float: left;
+}
+.logoWords {
+    width: 373px;
+    height: 117px;
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/logo-3.png) no-repeat no-repeat;
+    float: left;
+    margin: 80px 0 0 54px;
+    position: relative;
+}
+
+.logoWords div {
+    width:100%;
+    height:50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+
+.limitTime {
+    width: 328px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    float: left;
+    margin: 94px 0 0 120px;
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/lgBeautyBg-5.png)no-repeat;
+    font-size: 46px;
+    color:#ffffff;
+}
+
+.limitTime span {
+    font-size: 32px;
+    display: block;
+    float: left;
+    line-height: 74px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.content-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    width: 1333px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.baby {
+    height: 600px;
+    margin-top: 94px;
+}
+
+.baby img {
+    float: left;
+}
+
+.babyIntroduce {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 893px;
+    height: 600px;
+    background-color: #d2d2d2;
+    float: left;
+    font-size: 30px;
+    padding: 120px 50px 0 140px;
+}
+
+.babyIntroduce p {
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.babyIntroduce p:nth-of-type(2) {
+    margin-top: 90px;
+}
+
+.introduceMore {
+    height: 130px;
+    width: 100%;
+    /*background-color: red;*/
+    margin-top: 27px;
+}
+
+.float {
+    float: left;
+    height: 130px;
+    width: 440px;
+    background-color: #000;
+    color: #ffffff;
+    position: relative;
+}
+
+.float div {
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 30px;
+}
+.line{
+    position: absolute;
+    height:0!important;
+    width:300px;
+    top:64px;
+    left:70px;
+    border: 1px dashed;
+}
+.detailDesigner{
+    height:160px;
+    line-height: 160px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    background:  url(http://h5.cloudokids.cn/buyers/imgpc/line-3.jpg)449px 120px no-repeat;
+}
+.detailContent{
+    width:100%;
+    height:632px;
+}
+.detailContent img{
+    height:632px;
+    float: left;
+}
+.detailContent-introduce{
+    height:160px;
+    /*background-color: green;*/
+}
+.detailContent-introduce div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:50%;
+    float: left;
+    font-size: 30px;
+    padding: 30px 0 0 30px;
+}
+.detailContent-introduce div:nth-of-type(1){
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/lgCurcle.png)no-repeat 0 46px;
+}
+.detailContent-introduce div:nth-of-type(2){
+    padding-left: 80px;
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/lgCurcle.png)no-repeat 47px 46px;
+}
+.smallDetails{
+    height:948px;
+}
+.detailLeft{
+    width:462px;
+    float: left;
+}
+.commenInfo{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.moreDetail{
+    height: 120px;
+    line-height: 120px;
+    font-size: 30px;
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/lgCurcle.png)no-repeat 2px 45px;
+    padding-left: 35px;
+
+}
+.lgDetail{
+    width:702px;
+    font-size: 30px;
+    background: url(http://h5.cloudokids.cn/buyers/imgpc/lgCurcle.png)no-repeat 2px 45px;
+    padding:25px 0 0 36px;
+}
+.detailRight{
+    width:702px;
+    float: right;
+}
+.productInfo{
+    height:425px;
+}
+.productInfo a>div{
+    width:333px;
+    float: left;
+}
+.productInfo a>div>span{
+    display:block;
+    font-size: 20px;
+    width:326px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+
+

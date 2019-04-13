@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Avenir Next;
+}
+.selectMore-wrap{
+    width:100%;
+    background-color:#ffffff;
+}
+.selectMore{
+    width:95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header{
+    height:0.82rem;
+    margin-top: 0.34rem;
+    position: relative;
+}
+.header img{
+    display: block;
+    width: 0.86rem;
+    height:0.82rem;
+    float: left;
+}
+.header span{
+    display: block;
+    font-size: 0.24rem;
+    padding-left: 0.22rem;
+    float: left;
+    line-height: 0.82rem;
+}
+.beautyIntroduce{
+    position: absolute;
+    width:58%;
+    font-size: 0.2rem;
+    left:1.08rem;
+    top:0.7rem;
+}
+.beautyContent{
+    width:100%;
+   overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.6rem;
+}
+.beautyContent div{
+    width:50%;
+    float: left;
+}
+.beautyContent div img{
+    display: block;
+    width: 3rem;
+    margin: 0 auto;
+
+}
+.beautyContent div>span{
+    display: block;
+    text-align: center;
+}
+.beautyContent div>span:nth-of-type(1){
+    font-size: 0.21rem;
+    margin-top: 0.52rem;
+    color:#8e8e8e;
+}
+.beautyContent div>span:nth-of-type(2){
+    font-size: 0.31rem;
+    margin-top: 0.22rem;
+}
+.marginTop{
+    margin-top: 0.66rem;
+}
+
+
+
+
+
+
+
+
+
+
+

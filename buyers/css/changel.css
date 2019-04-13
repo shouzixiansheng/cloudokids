@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir Next;
+}
+a{
+    text-decoration:none;
+}
+body {
+    background: #f9f9f9;
+}
+
+nav {
+    height: 0.9rem;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.9rem;
+    position: relative;
+    background: white;
+}
+
+nav img {
+    display: block;
+    width: 0.27rem;
+    height: 0.86rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.02rem;
+}
+
+.popular {
+    height: 2.35rem;
+    margin-top: 0.12rem;
+    background: white;
+}
+
+.popular p:nth-of-type(1) {
+    text-align: center;
+    font-size: 0.4rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+}
+
+.popular p:nth-of-type(2) {
+    height: 1.45rem;
+}
+
+.popular span {
+    display: block;
+    padding-top: 0.3rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+.pantOne {
+    height: 4rem;
+}
+
+.pantOne img {
+    height: 4rem;
+    width: 100%;
+}
+
+.color_advice {
+    height: 2.4rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+.color_advice span {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-left: 0.45rem;
+    font-size: 0.28rem;
+}
+
+.color_advice span:nth-of-type(1) {
+    margin-top: 0.6rem;
+}
+.color_advice span:nth-of-type(2){
+    margin-top: 0.1rem;
+}
+.color_advice span:nth-of-type(3){
+    margin-top: 0.1rem;
+}
+.beautyCloth {
+    height: 6.9rem;
+    background-color: white;
+}
+
+.greenLine {
+    width: 6.9rem;
+    height: 6.9rem;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.greenLine img {
+    display: block;
+    margin: 3% auto;
+    width: 94%;
+    height: 94%;
+}
+
+
+
+

@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Avenir Next;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+nav img {
+    height: 5.03rem;
+}
+
+.bonIntro {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 95.3%;
+    margin: 0.84rem auto 0.65rem;
+    height: 3.62rem;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    padding: 0.77rem 0.1rem 0 0.1rem;
+    font-size: 0.3rem;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.bonImg {
+    width: 2.43rem;
+    height: 0.86rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.215rem;
+    top: -0.43rem;
+}
+
+.bonImg img {
+    width: 100%;
+}
+
+.bonStar {
+    width: 95.3%;
+    height: 6.05rem;
+    margin: 0 auto;
+}
+
+.bonStarLeft {
+    float: left;
+}
+
+.bonStarLeft img {
+    height: 6.05rem;
+}
+
+.bonStarRight {
+    width: 4.1rem;
+    height: 6.05rem;
+    float: right;
+    /*background-color: gold;*/
+}
+
+.starLove {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 3.4rem;
+
+    padding-top: 0.55rem;
+
+}
+
+.starLove span {
+    display: block;
+    font-size: 0.38rem;
+    font-family: FZDHTK;
+}
+
+.starLove .smallSize {
+    font-size: 0.22rem;
+    margin-top: 0.23rem;
+}
+
+.loveCloth {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2.68rem;
+    border: 1px solid #d9d9d9;
+}
+
+.loveCloth img {
+    float: left;
+    display: block;
+    width: 2.17rem;
+    height:2.654rem;
+    border: none;
+    border-image: none;
+}
+
+.clothIntro {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1.77rem;
+    height: 2.68rem;
+    float: right;
+    padding-right: 0.2rem;
+}
+
+.clothIntro span {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 0.24rem;
+}
+
+.clothIntro span:nth-of-type(1) {
+    margin-top: 0.44rem;
+}
+
+.clothIntro .price {
+    height: 0.69rem;
+    line-height: 0.69rem;
+    font-size: 0.3453rem;
+
+}
+
+.buyer {
+    width: 1.15rem;
+    height: 0.42rem;
+    border: none;
+    outline: none;
+    float: right;
+    background-color: #000;
+    color: #fff;
+}
+
+.buyer a {
+    display: block;
+    width: 1.15rem;
+    height: 0.42rem;
+    text-align: center;
+    line-height: 0.42rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.skinCare-wrap {
+    width: 100%;
+    height: 7.12rem;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 0.6rem;
+    /*background-color: gold;*/
+}
+
+.skinCare {
+    width: 95.3%;
+    margin: 0.54rem auto 0;
+    height: 6.05rem;
+}
+
+.skinCare-left {
+    width: 57.34%;
+    height: 6.05rem;
+    float: left;
+    /*background-color:gold;*/
+}
+
+.skinCare-right {
+    width: 37.7%;
+    height: 6.05rem;
+    float: right;
+    /*background-color: aqua;*/
+}
+.skinCare-right img{
+    height:6.05rem;
+}
+.skinCare-left span:nth-of-type(1) {
+    margin-top: 0.3rem;
+}
+
+.skinCare-left span {
+    display: block;
+    font-size: 0.38rem;
+    font-family: FZDHTK;
+}
+
+.skinCare-left .smallSize {
+    font-size: 0.22rem;
+    margin-top: 0.23rem;
+}
+
+.proShow {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.68rem;
+    margin-top: 0.32rem;
+    border: 1px solid #d9d9d9;
+}
+
+.proShow img {
+    width: 2.46rem;
+    height:2.63rem;
+    border: none;
+    float: left;
+    border-image: none;
+}
+
+.proShow-right {
+    width: 1.55rem;
+    height: 2.68rem;
+    float: right;
+    /*background-color: red;*/
+}
+
+.proShow-right span {
+    display: block;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+.click {
+    display: block;
+    border: none;
+    outline: none;
+    width: 1.15rem;
+    height: 0.42rem;
+    margin: 0.28rem auto 0;
+
+}
+
+.click a {
+    display: block;
+    width: 1.15rem;
+    height: 0.42rem;
+    text-align: center;
+    line-height: 0.42rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.skinCare-right img {
+    width: 100%;
+}
+
+.proShow-right .price {
+    height: 0.69rem;
+    line-height: 0.69rem;
+    font-size: 0.3453rem;
+}
+
+.line, .recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+
+.bgFrame {
+    width: 100%;
+    height: 1.23rem;
+    margin-top: 0.52rem;
+}
+
+.bgFrame div:nth-of-type(1) {
+    width: 2.22rem;
+    margin: 0 auto;
+    font-size: 0.307rem;
+    height: 0.68rem;
+    background: url(../img/BONPOINTbgframe4.png);
+    background-size: 2.22rem 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+
+.bgFrame div:nth-of-type(2) {
+    width: 2.25rem;
+    height: 0.55rem;
+    margin: 0 auto;
+    background-size: 2.25rem 0.55rem;
+    background: url(../img/BONPOINT_03bg.png);
+}
+
+.recommendContent {
+    width: 100%;
+}
+
+.recommend {
+    width: 95.3%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+
+}
+
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+
+.userName {
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.headPortrait div {
+    float: left;
+}
+
+.moreProduct {
+
+}
+
+.myProduct {
+    width: 50%;
+    height: 4.8rem;
+    float: left;
+}
+
+.myProduct img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+.myProduct span{
+    display: block;
+    height:0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+
+}
+.myProduct span:nth-of-type(1){
+    margin-top: 0.1rem;
+    height:1rem;
+    font-size: 0.211rem;
+}
+.myProduct span:nth-of-type(2){
+    font-size: 0.3014rem;
+}
+
+
+
+

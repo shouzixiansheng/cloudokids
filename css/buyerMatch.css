@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.matchBg {
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.background img {
+    display: block;
+    width: 100%;
+    height: 4rem;
+}
+
+.userPortraitWrap {
+    height: 1rem;
+    margin-top: 1.5rem;
+    position: relative;
+    z-index: 100;
+}
+
+.userPortrait {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.userPortrait img {
+    width: 100%;
+}
+
+.userName {
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.signature {
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content {
+    width: 100%;
+}
+
+.buyerMatch {
+    width: 6rem;
+    height:6rem;
+    margin: 0 auto;
+}
+.buyerMatch img{
+    width:100%;
+    height:100%;
+}
+.buyerSigner{
+    margin-top: 0.5rem;
+}
+.buyerName{
+    height:0.6rem;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    position: relative;
+}
+.buyerSigner{
+    width:100%;
+    height:0.6rem;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.buyerName{
+    height:1.8rem;
+    line-height: 1.8rem;
+}
+.portrait{
+    width:1rem;
+    height:1rem;
+    position: absolute;
+    left:50%;
+    margin-left: -0.5rem;
+    top:-0.4rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.portrait img{
+    width:100%;
+}
+
+
+
+
+

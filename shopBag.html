@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物袋</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/js/rem.js"></script>
+</head>
+<body>
+<nav>
+    <div class="imWrap">
+        <span class="go_back" onclick="back()"><img src="img/back@2x.png" alt=""></span>
+        <span class="myName">购物袋</span>
+        <script>
+            function back() {
+                window.location.href=("index.html");
+            }
+        </script>
+    </div>
+</nav>
+<div class="hasShop">
+    您已选定<span>0</span>项<div class="checkedAll"><input type="checkbox" value="" class="checkedall">全选</div>
+</div>
+<div class="hasShop_show">
+    <ul class="imModel">
+        <div class="preLoadImg"><img src="img/imLoading.gif" alt=""></div>
+        <li>
+            <div class="circle"><input type="checkbox" value="" class="single"></div>
+            <div class="cloth_show"><img src="" alt=""></div>
+            <div class="cloth_introduce">
+                <div class="brand"></div>
+                <div class="myDetailName"></div>
+                <div class="proInfo"><span class="proSize"></span><span class="expressInfo"></span></div>
+                <div class="price_wrap"><span class="price"></span>×<span class="buyNumber"></span></div>
+            </div>
+            <span class="editor">编辑</span>
+            <span class="cancel">取消</span>
+            <div class="proNumber">
+                <span class="cut">-</span><span class="nowNumber">1</span><span class="add">+</span>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="shop_accounts">
+    <button disabled="disabled" class="allCount">结算</button>
+</div>
+<div class="shade"></div>
+<div class="absolute"></div>
+<div id="footer"></div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/shop.js"></script>
+</body>
+</html>

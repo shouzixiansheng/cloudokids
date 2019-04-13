@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Avenir Next";
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+img{
+    display: block;
+}
+.margin{
+    height: 0.1rem;
+    background-color: #f9f9f9;
+}
+.cowBoy{
+    width:100%;
+    height:9.67rem;
+}
+.cowBoyContent{
+    width:92%;
+    margin: 0 auto;
+    height:2.27rem;
+    overflow: hidden;
+}
+.cowBoyContent div{
+    font-size: 0.24rem;
+    height:0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.cowBoyContent div:nth-of-type(1){
+    margin-top: 0.55rem;
+}
+.cowImg{
+    width:92%;
+    margin: 0 auto;
+    height:6.9rem;
+}
+.cowImg img{
+    width:100%;
+    height:6.9rem;
+}
+
+
+.bgFrame {
+    width: 100%;
+    height: 1.23rem;
+    margin-top: 0.52rem;
+}
+
+.bgFrame div:nth-of-type(1) {
+    width: 2.22rem;
+    margin: 0 auto;
+    font-size: 0.307rem;
+    height: 0.68rem;
+    background: url(../img/CartoonBg.png);
+    background-size: 2.22rem 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+
+.bgFrame div:nth-of-type(2) {
+    width: 2.25rem;
+    height: 0.55rem;
+    margin: 0 auto;
+    background:url(../img/CartoonBg2.png);
+    background-size: 2.25rem 0.55rem;
+}
+.carToonInfo {
+    width: 1.5rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*推荐买手搭配*/
+.recommendContent {
+    width: 100%;
+}
+.recommend {
+    width: 92%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+}
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+.headPortrait div {
+    float: left;
+}
+.recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+/*买手搭配结束*/
+.cowContent{
+    width:100%;
+}
+.imModel{
+    width:50%;
+    float: left;
+}
+.imModel a{
+    display: block;
+    width:3rem;
+    height:3rem;
+    margin: 0 auto;
+}
+.imModel img{
+    width:3rem;
+    height:3rem;
+}
+.imModel span{
+    display: block;
+    height:0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.designer{
+    margin-top: 0.05rem;
+    font-size: 0.24rem;
+}
+.proName{
+    width:90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.2rem;
+}
+.price{
+    font-size: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+

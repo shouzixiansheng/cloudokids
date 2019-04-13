@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+img {
+    display: block;
+}
+
+.carToonBanner {
+    width: 100%;
+    height: 5rem;
+    border-top: 0.1rem solid #e9e9e9;
+}
+
+.carToonBanner img {
+    width: 100%;
+    height: 5rem;
+}
+
+
+.line {
+    width: 100%;
+    margin: 0 auto;
+    height: 0.2rem;
+    background-color: #e9e9e9;
+}
+
+.doc{
+    width: 100%;
+    padding-bottom: 0.3rem;
+}
+.doc .title{
+    width: 91.5%;
+    margin: 0 auto;
+}
+.title .firstP{
+    font-size: 0.42rem;
+    margin-top: 0.4rem;
+}
+.title .twoP{
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    font-weight: bolder;
+}
+.title div{
+    border: 1px solid #b7b7b7;
+    margin-top: 0.4rem;
+}
+.title div span{
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    padding: 0.2rem 0;
+}
+.marginTop {
+    margin-top: 0.87rem !important;
+}
+.imgWrap {
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px dashed #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.carProInt {
+    width: 50.4%;
+    float: right;
+    height: 2.6rem;
+    position: relative;
+}
+.carToonName{
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.carToonPrice {
+    height: 0.4rem;
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0.08rem;
+}
+.carToonDesigner{
+    height: 1.25rem;
+    font-size: 0.24rem;
+    margin-top: 0.08rem;
+}
+.imBolder {
+    font-weight: bolder;
+}
+
+.recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+
+.bgFrame {
+    width: 100%;
+    height: 1.23rem;
+    margin-top: 0.52rem;
+}
+
+.bgFrame div:nth-of-type(1) {
+    width: 2.22rem;
+    margin: 0 auto;
+    font-size: 0.307rem;
+    height: 0.68rem;
+    background: url(../img/CartoonBg.png);
+    background-size: 2.22rem 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+
+.bgFrame div:nth-of-type(2) {
+    width: 2.25rem;
+    height: 0.55rem;
+    margin: 0 auto;
+    background: url(../img/CartoonBg2.png);
+    background-size: 2.25rem 0.55rem;
+}
+
+.carToonInfo {
+    width: 1.5rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.recommendContent {
+    width: 100%;
+}
+
+.recommend {
+    width: 95.3%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+
+}
+
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+
+.headPortrait div {
+    float: left;
+}
+
+.recommendPro {
+    width: 92%;
+    margin: 0 auto;
+    font-family: "Avenir Next";
+    overflow: hidden;
+}
+
+.imModel {
+    width: 50%;
+    height: 4.5rem;
+    float: left;
+}
+
+.imModel a {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.imModel img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.commonInfo {
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.imModel div:nth-of-type(1) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.imModel div:nth-of-type(2) {
+    width: 90%;
+    height: 0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.2rem;
+    white-space: nowrap;
+}
+
+.imModel div:nth-of-type(3) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.2rem;
+}
+.aLink{
+    width: 100%;
+    height: 1rem;
+}
+.aLink a{
+    display: block;
+    width: 1.59rem;
+    height: 0.48rem;
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0.3rem auto;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    text-align: center;
+}

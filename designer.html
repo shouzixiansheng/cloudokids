@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>品牌</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/designer.css">
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/js/rem.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body style="padding-bottom: 1rem">
+<div id="footer"></div>
+<script>
+    $("#footer").load("footer.html");
+</script>
+<header class="header_nav">
+    <div class="logo-wrap">
+        品牌
+        <div class="buyerBag" onclick="window.location.href=('shopBag.html')"><img src="img/buyerBag@2x.png" alt=""></div>
+    </div>
+</header>
+<div class="allContent">
+    <div class="imNull"></div>
+    <div class="swiper-container designerWrap">
+        <div class="swiper-wrapper logoWrap">
+            <div class="swiper-slide logo">
+            </div>
+        </div>
+        <div class="swiper-scrollbar selfBar"></div>
+    </div>
+    <div class="content">
+        <div class="imModel"></div>
+        <div class="imModelContent">
+
+        </div>
+    </div>
+</div>
+<script src="js/swiper-3.4.1.jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/customer.js"></script>
+<script src="js/designer.js"></script>
+</body>
+</html>

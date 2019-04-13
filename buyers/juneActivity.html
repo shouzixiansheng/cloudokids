@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2017SUMMER打折季</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/juneActivity.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script>
+        function refresh() {
+            var deviceWidth = document.documentElement.clientWidth;
+            if (deviceWidth > 1080) {
+                document.documentElement.style.fontSize = 1080 / 10.8 + "px";
+            } else {
+                document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+            }
+        }
+        refresh();
+    </script>
+</head>
+<body>
+<div class="childrenDayActivity">
+    <div class="closeAdvice"></div>
+    <div class="openApp"></div>
+</div>
+<a href="../singItem.html?myTitle=17春夏折扣20@ !myId=160!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june1.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=17春夏折扣30@ !myId=159!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june2.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=16春夏折扣40@ !myId=195!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june3.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=16春夏折扣50@ !myId=196!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june4.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季婴儿 !myId=184!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june5.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季男孩 !myId=176!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june6.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季女孩 !myId=166!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june7.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季>>T恤/POLO shirt !myId=191!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june8.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季折扣季>>裤子 !myId=193!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june9.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季折扣季>>裙子 !myId=192!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june10.jpg" alt="">
+</a>
+<a href="../singItem.html?myTitle=ss17折扣季>>鞋子 !myId=194!ifDesigner=0">
+    <img src="http://img1.cloudokids.cn/buyers/images/june11.jpg" alt="">
+</a>
+<script>
+    window.location = 'cloudokids://';
+    $(function () {
+        $(".openApp").click(function () {
+            window.location = 'cloudokids://';
+            setTimeout(function () {
+                window.location = "http://a.app.qq.com/o/simple.jsp?pkgname=com.cloudokids";
+            }, 3000);
+        });
+        $(".closeAdvice").click(function () {
+            $(".childrenDayActivity").animate({"opacity": 0}, function () {
+                $(".childrenDayActivity").css("display","none");
+            });
+        });
+    });
+</script>
+<script src="js/statistics.js"></script>
+</body>
+</html>

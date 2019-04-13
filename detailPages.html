@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <script src="js/js/rem.js"></script>
+</head>
+<body>
+<nav>
+    <div class="imWrap">
+        <span class="go_back" onclick="back()"><img src="img/back@2x.png" alt=""></span>
+        <span class="myName"></span>
+        <span class="cartWrap"><img src="img/buyerBag@2x.png" alt=""></span>
+        <script>
+            function back() {
+                window.history.go(-1);
+            }
+        </script>
+    </div>
+</nav>
+<div class="main_content">
+    <div class="details_info">
+        <div class="info_wrap">
+            <span class="info_name"></span>
+            <div class="info_price">
+                <span class="now_price"></span>
+            </div>
+        </div>
+        <!--//商品详情轮播展示-->
+        <div class="swiper-container info_product">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide beautyShow"><img src="img/imLoading.gif" alt="" class="prepareLoading"></div>
+                <div class="swiper-slide beautyShow"><img src="img/imLoading.gif" alt="" class="prepareLoading"></div>
+                <div class="swiper-slide beautyShow"><img src="img/imLoading.gif" alt="" class="prepareLoading"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="describe-wrap">
+        <span>描述</span>
+        <div class="describe"></div>
+    </div>
+    <div class="deliveryWay">
+        <div class="customerAttention"><span class="method">配送方式</span><span class="info-more info-more1"></span></div>
+        <div class="commonHide imHide">
+            <ul>
+                <li class="even">英国标准</li>
+                <li class="odd">时间：2-3工作日 费用 配送：免费</li>
+                <li class="even">英国快捷</li>
+                <li class="odd">时间：次日（工作日）费用：¥6.95 配送：皇家邮政</li>
+                <li class="even">中国标准</li>
+                <li class="odd">时间：7-20工作日 费用¥9.95 配送：EMS</li>
+                <li class="even">中国快捷</li>
+                <li class="odd">时间：3-8个工作日 费用：¥18.95配送：EMS</li>
+                <li class="even">其他国家标准</li>
+                <li class="odd">时间：10-20个工作日 费用：¥9.95 配送：DHL/皇家邮政</li>
+                <li class="even">其他国家快捷</li>
+                <li class="odd">时间：4-6个工作日 费用：¥18.95 配送：DHL/皇家邮政</li>
+            </ul>
+        </div>
+        <div class="proBack"><span class="method">退货须知</span><span class="info-more info-more2"></span></div>
+        <div class="commonHide imHide-2">
+            <ul>
+                <li class="even">我该如何退回产品？</li>
+                <li class="odd" style="height:1.0rem;">请在七日内与我们联系，并提供将要退回商品的购买信息及情况。<br/>联系邮箱：customerservies@cloudokids.com
+                </li>
+                <li class="even">我可以更换产品吗？</li>
+                <li class="odd">我们不支持更换产品的服务，请谅解。</li>
+            </ul>
+        </div>
+    </div>
+    <!--商品展示部分-->
+    <div class="commen_product content">
+        <!--同品牌其他商品展示-->
+        <div class="title">
+            <div class="title_name">同品牌其他商品</div>
+            <div class="knowMore designerMore">更多</div>
+        </div>
+        <div class="swiper-container pic_wrapOne">
+            <div class="swiper-wrapper wrapOne productMore">
+                <div class="swiper-slide img_wrap">
+                    <a><img src="img/imLoading.gif" alt="" style="width:35px;height:35px;margin:1.2rem auto 0;"></a>
+                    <span class="product_name"></span>
+                    <span class="product_price"></span>
+                </div>
+            </div>
+            <div class="swiper-scrollbar barMyself"></div>
+        </div>
+        <!--其他推荐商品展示-->
+        <div class="title">
+            <div class="title_name">其他推荐商品</div>
+            <div class="line_devide"></div>
+            <div class="knowMore cateGoryMore">更多</div>
+        </div>
+        <div class="swiper-container pic_wrapTwo">
+            <div class="swiper-wrapper wrapTwo productMore">
+                <div class="swiper-slide img_wrap">
+                    <a><img src="img/imLoading.gif" alt="" style="width:35px;height:35px;margin:1.2rem auto 0;"></a>
+                    <span class="product_name"></span>
+                    <span class="product_price"></span>
+                </div>
+            </div>
+            <div class="swiper-scrollbar barMyself"></div>
+        </div>
+    </div>
+</div>
+<div class="selectSize">
+    <div class="mySize">选择尺码</div>
+    <div class="match">
+        <div><img src="img/newResize.png" alt=""></div>
+        <span class="commonInfo">对照</span>
+    </div>
+    <div class="collect">
+        <div class="collectBg"></div>
+        <span class="collectInfo commonInfo">收藏</span>
+    </div>
+    <div class="moreSize">
+        <div class="addBag-wrap">
+            <button class="addBag" disabled="disabled">添加到购物袋</button>
+        </div>
+        <ul class="proSize">
+            <li>
+                <span class="babyAge"></span>
+                <span class="imChecked">√</span>
+                <span class="proStore"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="matchData"></div>
+<div class="shade">
+    <div class="absolute"></div>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper-3.4.1.jquery.min.js"></script>
+<script src="js/customer.js"></script>
+<script src="js/common.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>

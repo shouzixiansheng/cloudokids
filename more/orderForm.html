@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="../css/css/orderForm.css">
+    <script src="../js/js/rem.js"></script>
+</head>
+<body>
+<nav>
+    <span class="goBack" onclick="goBack()"><img src="../img/back@2x.png" alt=""></span><span
+        class="address">订单</span>
+    <script>
+        function goBack() {
+            window.history.go(-1);
+        }
+    </script>
+</nav>
+<ul class="orderForm">
+    <li>
+        <span class="allForm">全部订单
+         <div class="border" style="display: block"></div>
+        </span>
+        <div class="package packageShow">
+            <ul class="littleForm">
+                <li class="formModel">
+                    <div class="orderNumber">
+                        <div class="numberOne"></div>
+                        <div class="orderPrice"><span class="price"></span><span class="usTime"></span></div>
+                    </div>
+                    <div class="handleNumber">
+
+                    </div>
+                </li>
+            </ul>
+            <div class="hasComplete1">
+                您还没有订单呦
+            </div>
+        </div>
+    </li>
+    <li>
+        <span class="waitConfirm">待支付/待确认
+         <div class="border"></div>
+        </span>
+        <div class="package">
+            <ul class="littleForm2">
+                <li class="formModel">
+                    <div class="orderNumber">
+                        <div class="numberOne"></div>
+                        <div class="orderPrice"><span class="price"></span><span class="usTime"></span></div>
+                    </div>
+                    <div class="handleNumber">
+
+                    </div>
+                </li>
+            </ul>
+            <div class="hasComplete2">
+                您还没有待支付/待确认的订单
+            </div>
+        </div>
+    </li>
+    <li>
+        <span class="processing">处理中
+         <div class="border"></div>
+        </span>
+        <div class="package">
+            <ul class="littleForm3">
+                <li class="formModel">
+                    <div class="orderNumber">
+                        <div class="numberOne"></div>
+                        <div class="orderPrice"><span class="price"></span><span class="usTime"></span></div>
+                    </div>
+                    <div class="handleNumber">
+
+                    </div>
+                </li>
+            </ul>
+            <div class="hasComplete3">
+                您还没有处理中的订单
+            </div>
+        </div>
+    </li>
+    <li>
+        <span class="complete">已完成
+        <div class="border"></div>
+        </span>
+        <div class="package">
+            <ul class="littleForm4">
+                <li class="formModel">
+                    <div class="orderNumber">
+                        <div class="numberOne"></div>
+                        <div class="orderPrice"><span class="price"></span><span class="usTime"></span></div>
+                    </div>
+                    <div class="handleNumber">
+
+                    </div>
+                </li>
+            </ul>
+            <div class="hasComplete4">
+                您还没有已完成订单
+            </div>
+        </div>
+    </li>
+</ul>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/js/myPackage.js"></script>
+</body>
+</html>

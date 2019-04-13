@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img, a {
+    display: block;
+}
+
+.grayBg {
+    height: 0.1rem;
+    background: #f9f9f9;
+}
+
+.buyerHead {
+    width: 78.4%;
+    height: 1.2rem;
+    margin: 0.55rem auto 0.5rem;
+    position: relative;
+}
+
+.buyerPro {
+    width: 78.4%;
+    height: 7.8rem;
+    margin: 0 auto;
+    position: relative;
+}
+.buyerPro .proWrap:nth-of-type(1){
+    top:0;
+    left:0;
+}
+.buyerPro .proWrap:nth-of-type(2){
+    top:0;
+    right:0;
+}
+.buyerPro .proWrap:nth-of-type(3){
+    top:3.9rem;
+    left:0;
+}
+.buyerPro .proWrap:nth-of-type(4){
+    top:3.9rem;
+    right:0;
+}
+.proWrap {
+    width: 2.6rem;
+    height: 3.45rem;
+    position: absolute;
+}
+.proWrap a{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:2.6rem;
+    height:2.6rem;
+    border: 1px solid #e5e5e5;
+
+}
+.proWrap a img{
+    width:80%;
+    margin: 10% auto;
+}
+.proWrap span{
+    display: block;
+    height:0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.25rem;
+}
+.proWrap span:nth-of-type(1){
+    margin-top: 0.05rem;
+}
+.portrait {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.portrait img {
+    width: 100%;
+    height: 100%;
+}
+
+.buyerName {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1.32rem;
+    height: 1.2rem;
+    padding-left: 0.1rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.25rem;
+    float: left;
+}
+
+.enterBuyerHome {
+    width: 1.82rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.35rem;
+    right: 0;
+    font-size: 0.25rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 0.5rem;
+    background: #000;
+    color: #fff;
+}
+.imNull{
+    height:0.1rem;
+    background: #dcdcdc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/personalCenter.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/js/rem.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div id="footer"></div>
+<script>
+    $("#footer").load("footer.html");
+</script>
+<div class="header">
+    <div class="headPortrait">
+        <div class="userHeard"></div>
+        <div class="userName"></div>
+        <div class="exit">退出登录</div>
+    </div>
+    <div class="email">
+        <div class="collectWrap">
+            <div class="hasCollect">0</div>
+            <div>收藏</div>
+        </div>
+        <div class="lookWrap">
+            <div class="hasLook">0</div>
+            <div>最近浏览</div>
+        </div>
+    </div>
+</div>
+<ul class="userInfo">
+    <li class="orderForm">我的订单</li>
+    <li class="personalInfo">个人信息</li>
+    <li class="manageAddress">地址管理</li>
+    <li class="myPoint">我的积分</li>
+</ul>
+<div class="maskLayerWrap">
+    <div class="maskLayer"></div>
+</div>
+<script src="js/common.js"></script>
+<script src="js/customer.js"></script>
+<script src="js/personalCenter.js"></script>
+</body>
+</html>

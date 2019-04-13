@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir Next;
+}
+body{
+    /*background-color: blue;*/
+}
+.detailShow {
+    width: 100%;
+}
+.lgImg {
+    width: 95%;
+    height: 7rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lgImg img {
+    width: 100%;
+    height: 7rem;
+}
+.isMe-wrap{
+    height:0.42rem;
+    position:relative;
+}
+.isMe {
+    width: 0.86rem;
+    height: 0.86rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.43rem;
+    top: -0.43rem;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1000;
+}
+.isMe img {
+    width: 0.86rem;
+    height: 0.86rem;
+    display: block;
+}
+
+.addressEmail, .introduce, .time {
+    text-align: center;
+    font-size: 0.24rem;
+}
+
+.addressEmail {
+    height: 0.6rem;
+    /*background-color: gold;*/
+    line-height: 0.6rem;
+}
+.introduce {
+    height: 0.6rem;
+    /*background-color: blue;*/
+}
+.time {
+    height: 0.3rem;
+    background-color: pink;
+    color: rgba(56, 255, 255, 0.19);
+}
+.selectMore-wrap {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.selectMore {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    height: 0.82rem;
+    margin-top: 0.34rem;
+    position: relative;
+}
+
+.header img {
+    display: block;
+    width: 0.86rem;
+    height: 0.82rem;
+    float: left;
+}
+
+.header span {
+    display: block;
+    font-size: 0.24rem;
+    padding-left: 0.22rem;
+    float: left;
+    line-height: 0.82rem;
+}
+
+.beautyIntroduce {
+    position: absolute;
+    width: 58%;
+    font-size: 0.2rem;
+    left: 1.08rem;
+    top: 0.7rem;
+}
+.beautyContent {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.6rem;
+}
+.beautyContent div {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    height: 5.4rem;
+}
+.beautyContent div img {
+    display: block;
+    width: 3rem;
+    margin: 0 auto;
+}
+.beautyContent div > span {
+    display: block;
+    text-align: center;
+}
+.beautyContent div > span:nth-of-type(1) {
+    font-size: 0.21rem;
+    margin-top: 0.52rem;
+    font-weight: bolder;
+}
+.beautyContent div > span:nth-of-type(2) {
+    font-size: 0.20rem;
+    margin-top: 0.22rem;
+}
+
+.beautyContent div > span:nth-of-type(3) {
+    font-size: 0.20rem;
+    margin-top: 0.22rem;
+}
+
+
+
+
+
+
+
+
+
+
+

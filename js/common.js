@@ -1,0 +1,1 @@
+var H5_AJAX_HTTP_URL="http://h5.cloudokids.cn/mweb/inter/getResult";

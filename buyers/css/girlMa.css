@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Avenir Next";
+}
+
+.grayBg {
+    height: 0.1rem;
+    background: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    display: block;
+}
+
+nav {
+    font-size: 0.48rem;
+    text-align: center;
+    height: 1.16rem;
+    line-height: 1.16rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.buyerInfo, .buyerInfo > a {
+    width: 78.66%;
+    margin: 0 auto;
+    height: 1.23rem;
+    overflow: hidden;
+}
+
+.buyerInfo > a {
+    width: 100%;
+    display: block;
+}
+
+.buyerInfo > a > div {
+    float: left;
+    margin-top: 0.15rem;
+}
+
+.headerPortrait {
+    width: 0.93rem;
+    height: 0.93rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.headerPortrait img {
+    width: 100%;
+    height: 100%;
+}
+
+.detailInfo {
+    width: 2.8rem;
+    height: 0.93rem;
+}
+
+.author {
+    font-size: 0.2rem;
+    margin: 0.16rem 0 0 0.23rem;
+}
+
+.authorName {
+    height: 0.46rem;
+    font-size: 0.4rem;
+    line-height: 0.46rem;
+    margin-left: 0.23rem;
+}
+
+.buyerInfo a .enterHome {
+    width: 1.9rem;
+    height: 0.4rem;
+    margin-top: 0.38rem;
+    float: right;
+    font-size: 0.22rem;
+    text-align: center;
+    background: #2d2d2d;
+    color: #fff;
+    line-height: 0.4rem;
+}
+
+.banner {
+    width: 7.5rem;
+    height: 3.2rem;
+}
+
+.banner img {
+    height: 3.2rem;
+}
+
+.moreIntro {
+    width: 83.47%;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.paddingTop {
+    padding: 0.95rem 0 0.8rem 0;
+}
+
+.springCome {
+    height: 0.45rem;
+    position: relative;
+    margin-top: 0.24rem;
+}
+
+.springCome div:nth-of-type(1) {
+    width: 1.15rem;
+    float: left;
+    margin-left: 18%;
+    height: 0.2rem;
+    border-bottom: 1px dashed;
+}
+
+.springCome div:nth-of-type(3) {
+    width: 1.15rem;
+    float: right;
+    margin-right: 18%;
+    height: 0.2rem;
+    border-bottom: 1px dashed;
+}
+
+.springCome div:nth-of-type(2) {
+    width: 1.85rem;
+    height: 0.45rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.45rem;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -0.92rem;
+}
+
+.designer {
+    margin-top: 0.3rem;
+    height: 0.68rem;
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/girlDesignerMa.jpg) center top no-repeat;
+    background-size: 2rem 0.68rem;
+}
+
+.girlMaBanner {
+    width: 92%;
+    margin: 0 auto;
+    height: 5.2rem;
+}
+
+.girlMaBanner img {
+    height: 5.2rem;
+    width: 100%;
+}
+
+.leaf {
+    margin-top: 0.85rem;
+    height: 0.7rem;
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/leaf.jpg) center top no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+
+.page {
+    margin-top: 0.1rem;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 0.48rem;
+    color: #333;
+}
+
+.marginBottom {
+    margin-bottom: 0.39rem;
+}
+
+.enterDesigner {
+    width: 4rem;
+    height: 0.6rem;
+    margin: 0.8rem auto 2.1rem;
+}
+.enterDesigner a{
+    display: block;
+    width: 4rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background: #000;
+    color:#fff;
+}

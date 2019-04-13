@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efeff4;
+}
+.fix_wrap{
+    width:100%;
+    background: #FFFFFF;
+    position:fixed;
+    top:0;
+    left:0;
+    height:1.7rem;
+    z-index: 2;
+}
+nav {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.1rem;
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.input_wrap{
+    width:95%;
+    height:0.6rem;
+    border-radius: 6px;
+    background: #e1e1e1;
+    margin:0 auto;
+    position:relative;
+}
+.searc{
+    width:6%;
+    height:0.6rem;
+    float: left;
+    color: #939398;
+    font-size: 0.25rem;
+    background-color: #e1e1e1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    position: relative;
+    visibility: hidden;
+}
+.searc_two{
+    width:0.6rem;
+    height:0.6rem;
+    position: absolute;
+    left: 45%;
+    color: #939398;
+    font-size: 0.25rem;
+}
+.pic{
+    margin-top: 0.2rem;
+    position:absolute;
+    left:10%;
+}
+.pic_two{
+    margin-top: 0.2rem;
+}
+#search_inp {
+    width: 94%;
+    margin: 0 auto;
+    display: block;
+    height: 0.6rem;
+    font-size: 0.2rem;
+    outline: none;
+    border: none;
+    background-color: #e1e1e1;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    position: relative;
+    float: left;
+}
+.let_center{
+    text-align: center!important;
+}
+.assort_wrap {
+    width: 100%;
+    height: 0.7rem;
+    background-color: #FFFFFF;
+}
+
+.assort {
+    width: 3rem;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    display: -webkit-box;
+    display: -moz-box;
+}
+
+.assort span {
+    display: block;
+    -webkit-box-flex: 1;
+    font-size: 0.3rem;
+    text-align: center;
+    padding-top: 0.2rem;
+
+}
+
+.assort .assort_one {
+    border-bottom: 2px solid #d3d3d6;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.assort_assort {
+    width:100%;
+    margin: 1.7rem auto 0;
+    background: #FFFFFF;
+    font-size: 0.26rem;
+    border-bottom: 1px solid #d3d3d6;
+    border-top: 1px solid #d3d3d6;
+    overflow: hidden;
+}
+/*.donghua{*/
+    /*width:100%;*/
+    /*transition: width .2s ease;*/
+/*}*/
+.assort_assort li {
+    display: -webkit-box;
+    border-bottom: 1px solid #d3d3d6;
+    line-height: 0.66rem;
+    height: 0.66rem;
+    width: 98%;
+    float: right;
+    background: url(../img/QQ截图20161229101351.png)no-repeat 6.6rem 0;
+    background-size: 0.6rem 0.6rem;
+}
+
+.assort_brand {
+    font-size: 0.3rem;
+    display:none;
+    margin-top:1.7rem;
+}
+
+.title_name {
+    background:#f0eff5;
+    line-height: 0.56rem;
+    border-bottom: 1px solid #d3d3d6;
+}
+.name_more{
+    background-color: #FFFFFF;
+}
+.assort_brand span {
+    width: 95%;
+    margin: 0 auto;
+    height: 0.65rem;
+    line-height: 0.65rem;
+    border-bottom: 1px solid #d3d3d6;
+    display: block;
+    background: url(../img/QQ截图20161229101351.png)no-repeat 6.5rem 0;
+    background-size: 0.6rem 0.6rem;
+}
+
+.title_name div {
+    width: 95%;
+    margin: 0 auto
+}
+
+.assort_brand span{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: returnToNormal;
+    animation-name: returnToNormal;
+}
+
+
+@-webkit-keyframes returnToNormal {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes returnToNormal {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.side_nav{
+    width:0.3rem;
+    height:7.8rem;
+    position: fixed;
+    right:0;
+    top: 50%;
+    margin-top: -3.9rem;
+    display:none;
+
+}
+.side_nav a{
+    display:block;
+    width: 0.3rem;
+    height:0.3rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.3rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

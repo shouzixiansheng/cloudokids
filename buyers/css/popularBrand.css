@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+body {
+    font-family: "Avenir Next";
+}
+img {
+    display: block;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.lookingAll{
+    position: absolute;
+    width:2rem;
+    height:0.4rem;
+    background: rgba(0,0,0,.4);
+    left:50%;
+    margin-left: -1rem;
+    bottom:1.2rem;
+    text-align: center;
+    font-size: 0.25rem;
+    line-height: 0.4rem;
+    color:#fff;
+}
+.banner>a{
+    display: block;
+}
+.banner img{
+    width: 100%;
+}
+.title{
+    width: 100%;
+    margin-top: 1.6rem;
+}
+.title p{
+    text-align: center;
+    font-size: 0.36rem;
+    margin-bottom: 0.35rem;
+}
+.title p span{
+    padding: 0 0.5rem;
+    font-size: 0.36rem;
+}
+.title i{
+    display: block;
+    font-style: normal;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+.recommendPro {
+    width: 92%;
+    margin: 0.6rem auto;
+    font-family: "Avenir Next";
+    overflow: hidden;
+}
+.imModel {
+    width: 50%;
+    height: 4.5rem;
+    float: left;
+}
+
+.imModel a {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.imModel img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.commonInfo {
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.imModel div:nth-of-type(1) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.imModel div:nth-of-type(2) {
+    width: 90%;
+    height: 0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.2rem;
+    white-space: nowrap;
+}
+
+.imModel div:nth-of-type(3) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.2rem;
+}

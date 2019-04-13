@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 黑体;
+}
+
+body {
+    background-color: #EFEFF5;
+}
+.stopScroll{
+    overflow: hidden;
+}
+.imFixed {
+    width: 100%;
+    height: 1.44rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 0.72rem;
+    font-size: 0.34rem;
+    text-align: center;
+    line-height: 0.72rem;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.hasShop {
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 0.72rem;
+    background: #fff;
+    position: relative;
+}
+
+.goBack {
+    display: block;
+    float: left;
+    position: absolute;
+    font-size: 0.5rem;
+    line-height: 0.72rem;
+    font-weight: bolder;
+    left: 3%;
+    top: 0;
+}
+
+.goBack img {
+    display: block;
+    width: 0.23rem;
+    height: 0.4rem;
+    margin: 0.16rem auto 0;
+}
+
+.hasShop_show {
+    width: 100%;
+    margin-top: 1.64rem;
+    padding: 0.2rem 0 0.2rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+    overflow: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li {
+    width: 96%;
+    float: right;
+    border-bottom: 1px solid #ccc;
+    padding: 0.15rem 0 0.15rem 0;
+}
+
+.cloth_show {
+    width: 25%;
+}
+
+.cloth_show img {
+    float: left;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.container li:last-child {
+    border: none;
+}
+
+.cloth_introduce {
+    width: 75%;
+    box-sizing: border-box;
+    float: left;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.myName {
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.cloth_introduce div {
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.change {
+    border: 1px solid black;
+    width: 1.2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+    margin-right: 0.2rem;
+}
+
+.mark {
+    font-size: 0.5rem;
+    font-family: bolder;
+    float: right;
+    padding-right: 0.5rem;
+    display: none;
+}
+
+.brand {
+    font-size: 0.3rem;
+}
+
+.privilege {
+    width: 100%;
+    margin-top: 0.2rem;
+    height: 2.58rem;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #D3D2D7;
+    border-top: 1px solid #D3D2D7;
+}
+
+.gift {
+    height: 0.6rem;
+    font-size: 0.24rem;
+    padding-left: 3%;
+    line-height: 0.6rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.gift_number {
+    width: 100%;
+    height: 0.7rem;
+    border-bottom: 1px solid #D3D2D7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.number {
+    display: block;
+    float: left;
+    width: 53.4%;
+    height: 0.5rem;
+    outline: none;
+    border: none;
+    margin-left: 3%;
+    border-bottom: 1px solid #D3D2D7;
+    font-size: 0.24rem;
+}
+
+.apply {
+    display: block;
+    float: left;
+    width: 34.7%;
+    height: 0.5rem;
+    margin-left: 5%;
+    font-size: 0.24rem;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.giftDelete, .discountDelete {
+    width: 34.7%;
+    height: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 61.2%;
+    font-size: 0.24rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 0.5rem;
+    display: none;
+}
+
+.discount {
+    width: 100%;
+    line-height: 0.46rem;
+    font-size: 0.24rem;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+
+.gift_number_two {
+    border: none;
+}
+
+.product {
+    box-sizing: border-box;
+    padding-left: 3%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-top: 0.2rem;
+}
+
+.product li {
+    width: 100%;
+    font-size: 0.3rem;
+    line-height: 0.52rem;
+    border: none;
+}
+
+.product .orderForm {
+    font-size: 0.32rem;
+    width: 100%;
+    font-weight: bolder;
+    border-top: 1px solid #000000;
+}
+
+.total_price, .delivery, .favorable, .giftCard {
+    float: right;
+    padding-right: 0.25rem;
+    font-size: 0.28rem;
+}
+
+.formTotal {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3%;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    background-color: #FFFFFF;
+    font-size: 0.32rem;
+    font-weight: bolder;
+}
+
+.form_price {
+    float: right;
+    padding-right: 0.25rem;
+    font-size: 0.2rem;
+}
+
+.nextType {
+    width: 100%;
+    height: 1.06rem;
+    margin-top: 0.2rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.nextType button {
+    width: 93.75%;
+    margin: 0.2rem auto 0;
+    display: block;
+    height: 0.66rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 0.3rem;
+}
+/*遮罩层*/
+.maskLayerWrap {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+}
+
+.maskLayer {
+    font-size: 0.24rem;
+    height: 2.1rem;
+    position: absolute;
+    text-align: center;
+    display: none;
+    width: 5rem;
+    background: #fff;
+    left: 50%;
+    margin-left: -2.5rem;
+    top: 50%;
+    margin-top: -1.05rem;
+
+}
+
+.maskLayer div {
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+}
+.maskLayer div:nth-of-type(2){
+    line-height: 0.5rem;
+}
+.maskLayer div:nth-of-type(3) {
+    background: #ccc;
+    color: #fff;
+}
+
+.imOk {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #ccc;
+    color: #fff;
+}
+
+
+
+

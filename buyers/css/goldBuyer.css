@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Avenir Next";
+}
+img{
+    display:block;
+}
+.banner{
+    height:3rem;
+}
+.banner img{
+    width:100%;
+    height:3rem;
+}
+.childDesigners{
+    width:92%;
+    height:5.07rem;
+    margin:0 auto;
+}
+.spain,.spain2{
+    width:91%;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+}
+.spain{
+    margin: 0.62rem auto 0;
+}
+.spain2{
+    margin: 0.55rem auto 0;
+}
+.goldOne,.goldTwo,.goldThree,.goldFour{
+    height:0.7rem;
+}
+.goldOne{
+    background:url(http://img1.cloudokids.cn/buyers/newCollage/goldBuyer-0.jpg) center top no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+.goldTwo{
+    background:url(http://img1.cloudokids.cn/buyers/newCollage/goldBuyer-1.jpg) center top no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+.goldThree{
+    background:url(http://img1.cloudokids.cn/buyers/newCollage/goldBuyer-2.jpg) center top no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+.goldFour{
+    background:url(http://img1.cloudokids.cn/buyers/newCollage/goldBuyer-3.jpg) center top no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+.goldOneWord{
+    height:0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.36rem;
+    font-weight: bolder;
+}
+.goldIntroduce,.goldIntroduce2{
+    width:84%;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    margin: 0.6rem auto 0;
+}
+.goldIntroduce2{
+    padding-bottom: 0.94rem;
+}
+.goldPic{
+    width:86%;
+    height:2.9rem;
+    margin: 0.63rem auto 0;
+}
+.imLeft{
+    float: left;
+    height:2.9rem;
+}
+.imRight{
+    float: right;
+    height: 2.9rem;
+}
+.lineBg{
+    height:0.2rem;
+    background: #eeeeee;
+}
+.margin{
+    height:1rem;
+}
+.introduceMore{
+    width:84%;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    margin: 0.65rem auto 0;
+}
+.goldIntroduce3{
+    margin-top: 0;
+    padding-bottom: 1.1rem;
+}
+.bannerTwo{
+    width:92%;
+    height:2.86rem;
+    margin:0 auto 0.8rem;
+}
+.bannerTwo img{
+    width:100%;
+    height:2.86rem;
+}
+.next{
+    height:0.32rem;
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/goldNext.jpg) center top no-repeat;
+    background-size: 0.46rem 0.32rem;
+}
+.imNull{
+    height:0.77rem;
+}
+.myProIntro {
+    width: 92%;
+    height: 2.6rem;
+    margin: 0.3rem auto;
+}
+
+.myProIntro > div {
+    width: 2rem;
+    float: left;
+    height:2.6rem;
+}
+
+.myProIntro > div:nth-of-type(2) {
+    margin-left: 0.45rem;
+}
+.myProIntro > div:nth-of-type(3) {
+    margin-left: 0.45rem;
+}
+.proCommon{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:1px dashed #b2b2b2;
+}
+.proName{
+    border-radius: 4px;
+    height:0.46rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.46rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.proImg{
+    border-radius: 7px;
+    width:2rem;
+    height:2rem;
+    margin-top: 0.1rem;
+    overflow: hidden;
+}
+.proImg img{
+    height:2rem;
+    width:100%;
+}
+.enterHome {
+    width: 92%;
+    margin: 0.5rem auto 0.3rem;
+    height: 1.6rem;
+    background-color: #f1f1f1;
+}
+.enterHome>a{
+    color:black;
+    display: block;
+    height:1.6rem;
+}
+.enterHome .imgWrap {
+    width: 1.23rem;
+    height: 1.23rem;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 0.185rem;
+    margin-left: 0.1rem;
+}
+
+.enterHome div img {
+    height: 1.23rem;
+}
+
+.buyerInfo {
+    width: 4rem;
+    height: 1.23rem;
+    margin-top: 0.185rem;
+    float: left;
+}
+
+.buyerName {
+    font-size: 0.24rem;
+    padding: 0.24rem 0 0 0.24rem;
+}
+
+.buyerIntroduce {
+    font-size: 0.2rem;
+    padding: 0.17rem 0 0 0.24rem;
+}
+
+.enterMyHome{
+    width: 1.2rem;
+    height: 0.46rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.46rem;
+    float: right;
+    color: #FFFFFF;
+    background: #000000;
+    margin-top: 0.57rem;
+    border-radius: 3px;
+    margin-right: 0.1rem;
+    padding:0.05rem 0.1rem 0.05rem 0.1rem;
+    position: relative;
+}
+.enterMyHome>div{
+    position: absolute;
+    width:0.14rem;
+    height:0.28rem;
+    top:0.16rem;
+    right:0.04rem;
+}
+.enterMyHome>div img{
+    height:0.28rem;
+}
+.myHomePage{
+    width:4.3rem;
+    margin: 0.4rem auto 0;
+    font-size: 0.36rem;
+    text-align: center;
+    height:0.6rem;
+    line-height: 0.6rem;
+    font-weight: 500;
+    position: relative;
+}
+.border{
+    width:1.2rem;
+    height:0.3rem;
+    border-bottom: 1px solid;
+    position: absolute;
+    top:0;
+}
+.myHomePage div:nth-of-type(1){
+    left:0;
+}
+.myHomePage div:nth-of-type(2){
+    right:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Avenir Next";
+}
+img{
+    display: block;
+}
+.header{
+    height:3.6rem;
+}
+.headPortrait{
+    height:2.6rem;
+    overflow: hidden;
+    position: relative;
+}
+.userHeard{
+    height:1rem;
+    width:1rem;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 1rem auto 0;
+}
+.userHeard img{
+    width:1rem;
+    height:1rem;
+}
+.userName{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    height: 0.6rem;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+}
+.email{
+    height:1rem;
+    font-size: 0.24rem;
+}
+.exit{
+    position:absolute;
+    right:0.2rem;
+    top:0.2rem;
+    width:1.5rem;
+    height:0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    border: 1px solid #ccc;
+    display: none;
+}
+.email>div{
+    float: left;
+    width:50%;
+    height:1rem;
+    text-align: center;
+}
+ul,li{
+    list-style: none;
+    font-size: 0.24rem;
+}
+ul{
+    height:3.2rem;
+    border-bottom: 1px solid #ccc;
+    border-top:1px solid #ccc;
+}
+li{
+    width:95%;
+    float: right;
+    height:0.8rem;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    background: url(../img/arrows2.png) 6.7rem center  no-repeat;
+    background-size: 0.14rem 0.24rem;
+}
+ul>li:last-child{
+    border: none;
+}
+.email>div>div:nth-of-type(1){
+    height:0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.maskLayerWrap{
+    width: 100%;
+    background: rgba(0,0,0,.3);
+    display: none;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1000;
+}
+.maskLayer{
+    width:4rem;
+    height:0.8rem;
+    border-radius: 8px;
+    background: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    line-height: 0.8rem;
+    margin-top: -0.4rem;
+    margin-left: -2rem;
+    text-align: center;
+    font-size: 0.24rem;
+    display: block;
+}
+.maskLayer>div:nth-of-type(1){
+    height:0.6rem;
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+}
+.maskLayer>div:nth-of-type(2) span{
+    width:50%;
+    display: block;
+    height:0.4rem;
+    font-size: 0.26rem;
+    float: left;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.confirm{
+    background: #000;
+    color:#fff;
+}
+.cancel{
+    background: #ccc;
+    color:#fff;
+}
+
+
+
+
+
+
+
+

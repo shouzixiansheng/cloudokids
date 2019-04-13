@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir Next";
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 0.72rem;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav span {
+    line-height: 0.72rem;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+nav span:nth-of-type(1) {
+    width: 11%;
+    font-size: 0.5rem;
+}
+
+nav span:nth-of-type(2) {
+    width: 74%;
+    font-size: 0.3rem;
+}
+
+nav span:nth-of-type(3) {
+    width: 13%;
+    font-size: 0.28rem;
+}
+
+.personalInfo {
+    width: 100%;
+    margin-top: 1.02rem;
+    font-size: 0.24rem;
+    overflow: hidden;
+}
+
+.userAccount {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 0.8rem;
+    background: #f6f6f6;
+    padding-left: 3%;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #000;
+}
+
+.userAccount2Wrap {
+    height: 0.8rem;
+    border-bottom: 1px solid #000;
+}
+
+.userAccount2 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 97%;
+    float: right;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.userAccount2 span {
+    display: inline-block;
+    width: 20%;
+}
+
+.userAccount2 input {
+    width: 72%;
+    height: 0.6rem;
+    outline: none;
+    border: none;
+    background: #fff;
+}
+
+.goBack img {
+    display: block;
+    width: 0.23rem;
+    height: 0.4rem;
+    margin: 0.16rem auto 0;
+}
+
+.personalInfo li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: right;
+    height: 0.8rem;
+    border-bottom: 1px solid #000;
+    background: #fff;
+    line-height: 0.8rem;
+    padding-left: 3%;
+}
+
+li.grayBg {
+    background: rgba(239,239,244,1);
+}
+
+li span {
+    display: inline-block;
+    width: 20%;
+}
+
+li input {
+    width: 72%;
+    height: 0.6rem;
+    outline: none;
+    border: none;
+}
+
+.personalInfo .imName {
+    width: 97%;
+    padding-left: 0;
+    border-bottom: 1px solid #000;
+}
+
+.personalInfo .otherContact {
+    width: 97%;
+    padding-left: 0;
+}
+
+.contentModel {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 2.4rem;
+    float: left;
+}
+
+.contentModel li:last-child {
+    border: none;
+}
+
+.maskerLayer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .4);
+    display: none;
+}
+
+.imAbsolute {
+    width: 3rem;
+    height: 1rem;
+    border-radius: 8px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.5rem;
+    margin-top: -0.5rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.2rem;
+}
+
+.imAbsolute img {
+    display: block;
+    float: left;
+    width: 0.55rem;
+    height: 0.55rem;
+    margin-top: 0.225rem;
+    margin-left: 0.6rem;
+}
+
+.imAbsolute span {
+    display: block;
+    float: left;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    font-size: 0.2rem;
+    padding-left: 0.3rem;
+    margin-top: 0.325rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

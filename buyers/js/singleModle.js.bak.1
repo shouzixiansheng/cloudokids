@@ -1,0 +1,73 @@
+/**
+ * Created by 24212 on 2017/1/11.
+ */
+function refresh() {
+    var deviceWidth = document.documentElement.clientWidth;
+    if (deviceWidth > 1080) {
+        document.documentElement.style.fontSize = 1080 / 10.8 + "px";
+    } else {
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+    }
+}
+refresh();
+window.onresize = function () {
+    refresh();
+};
+
+
+function GetQueryString(name)
+{
+    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if(r!=null)return  unescape(r[2]); return null;
+}
+GetQueryString('id');
+$(function () {
+
+    var imgID=GetQueryString('id');
+
+    $.ajax({
+        url: "http://h5.cloudokids.cn/mweb/inter/getResult",
+        dataType: "json",
+        async: false,
+        type: "get",
+        data: {
+            customerAccessKey: "guest",
+            interfaceName: "GetCollage",
+            collageId: imgID
+        },
+        error: function (error) {
+
+        }
+    }).done(function (myJSON) {
+        var result=$.parseJSON(myJSON);
+        var src = result.Collage.PictureUrl;
+        var imgData = '<img src="' + src + '" alt=""> ';
+        $(".lgImg").html(imgData);
+        var userUrl=result.Collage.CustomerProfileOverview.AvatarUrl;
+        var imgData0='<img src="'+userUrl+'">';
+        $(".isMe").html(imgData0);
+        var address=result.Collage.CustomerProfileOverview.Username;
+        $(".addressEmail").html(address);
+        var describle=result.Collage.Description;
+        $(".introduce").html(describle);
+        var imgProduct = result.Collage.Products;
+        var imgLength = imgProduct.length;
+        var boxModel = $(".beautyContent").find(".modle").eq(0);
+        $(".beautyContent").empty();
+        for (var i = 0; i < imgLength; i++) {
+            boxModel.clone(true).appendTo($(".beautyContent"));
+            var ImgUrl = imgProduct[i].DefaultPictureModel.ImageUrl;
+            var ImgDesigner=imgProduct[i].CustomProperties.DesignerName;
+            var ImgName=imgProduct[i].Name;
+            var ImgPrice=imgProduct[i].ProductPrice.Price;
+            var imgData2 = '<img src="' + ImgUrl + '" alt=""> ';
+            $(".modle").eq(i).find("a").html(imgData2);
+            $(".modle").eq(i).find(".designer").html(ImgDesigner);
+            $(".modle").eq(i).find(".name").html(ImgName);
+            $(".modle").eq(i).find(".price").html(ImgPrice);
+        }
+    });
+
+
+})

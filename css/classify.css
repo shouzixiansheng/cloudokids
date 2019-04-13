@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background: #efeff4;*/
+    background: #ffffff;
+}
+
+.assort_wrap {
+    width: 100%;
+    height: 0.7rem;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.goUp {
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 0.7rem;
+    left: 0;
+    top: 0;
+}
+.goUp img{
+    display: block;
+    width:0.23rem;
+    height:0.4rem;
+    margin: 0.15rem auto 0;
+}
+.assort {
+    width: 2rem;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    display: -webkit-box;
+    display: -moz-box;
+}
+
+.assort span {
+    display: block;
+    -webkit-box-flex: 1;
+    font-size: 0.3rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    font-weight: bolder;
+}
+ul > li {
+    list-style: none;
+}
+
+.assort_assort {
+    margin-top: 0.2rem;
+    background: #FFFFFF;
+    font-size: 0.26rem;
+    border-bottom: 1px solid #d3d3d6;
+    border-top: 1px solid #d3d3d6;
+    overflow: hidden;
+}
+.sortData{
+    width:100%;
+    position: relative;
+    min-height: 1rem;
+    margin-top: 0.66rem;
+    overflow: hidden;
+}
+.assort_assort img{
+    display:block;
+    width:50px;
+    height:50px;
+    position: absolute;
+    left:50%;
+    margin-left: -25px;
+    margin-top: 0.1rem;
+}
+.lookAll{
+    display: -webkit-box;
+    border-bottom: 1px solid #d3d3d6;
+    line-height: 0.66rem;
+    height: 0.66rem;
+    width: 98%;
+    float: right;
+    position: relative;
+}
+.imArrows img{
+    display:block;
+    width:0.14rem;
+    height:0.24rem;
+    margin: 0.21rem auto 0;
+}
+.assort_assort li {
+    display: -webkit-box;
+    border-bottom: 1px solid #d3d3d6;
+    line-height: 0.66rem;
+    height: 0.66rem;
+    width: 98%;
+    float: right;
+    position: relative;
+}
+
+.assort_assort li:last-child {
+    border: none;
+}
+
+.assort_assort span {
+    display: block;
+    width: 0.7rem;
+    height: 0.66rem;
+    position: absolute;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.66rem;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

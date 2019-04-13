@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+img {
+    display: block;
+}
+.banner{
+    width:100%;
+}
+.banner img{
+    width:100%;
+}
+.push{
+    width: 91.5%;
+    margin: 0.3rem auto 0.1rem;
+}
+.push ul{
+    width: 100%;
+    overflow: hidden;
+}
+.push ul li{
+    margin-top: 0.4rem;
+    width: 48%;
+    float: left;
+    list-style: none;
+    height: 4.35rem;
+}
+.push ul li:nth-child(odd){
+    float: left;
+}
+.push ul li:nth-child(even){
+    float: right;
+}
+.push ul li a{
+    display: block;
+    overflow: hidden;
+}
+.push ul li a img{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+}
+.push ul li a p{
+    margin: 0.1rem auto;
+    text-align: center;
+}
+.push ul li a .name{
+    font-size: 0.22rem;
+}
+.push ul li a .price{
+    font-size: 0.2rem;
+}
+.push .doc{
+    width: 100%;
+    margin: 0.4rem auto 0.5rem;
+}
+.push .doc p{
+    font-size: 0.25rem;
+    line-height: 0.46rem;
+    margin:0 0.3rem;
+}
+.recommendPro {
+    width: 92%;
+    margin: 0 auto;
+    font-family: "Avenir Next";
+    overflow: hidden;
+}
+.line{
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+.imModel {
+    width: 50%;
+    height: 4.5rem;
+    float: left;
+}
+
+.imModel a {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.imModel img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.commonInfo {
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.imModel div:nth-of-type(1) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.imModel div:nth-of-type(2) {
+    width: 90%;
+    height: 0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.2rem;
+    white-space: nowrap;
+}
+
+.imModel div:nth-of-type(3) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.2rem;
+}
+.link{
+    width: 100%;
+    margin: 0.65rem auto;
+}
+.link a{
+    display: block;
+    width: 2.1rem;
+    height: 0.5rem;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.5rem;
+    margin: 0 auto;
+    font-size: 0.25rem;
+}

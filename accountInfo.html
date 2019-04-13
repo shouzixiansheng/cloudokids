@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更多信息</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/js/rem.js"></script>
+</head>
+<body>
+<nav>
+    更多<span onclick="window.location.href=('more/help.html')">帮助</span>
+</nav>
+<ul class="more_info">
+    <li onclick="window.location.href=('more/myAccount.html')">
+        <div class="img_wrap"><img src="img/id-card.png" alt=""></div>
+        <p>
+            <span class="myAccount">我的账户</span>
+            <span class="accountMore">查看或更新您的账户信息</span>
+        </p>
+        <div class="continue">></div>
+    </li>
+    <li>
+        <div class="img_wrap"><img src="img/order@1x.png" alt=""></div>
+        <p>
+            <span class="myAccount">订单</span>
+            <span class="accountMore">跟踪或查看您的订单详情</span>
+
+        </p>
+        <div class="continue">></div>
+    </li>
+    <li onclick="window.location.href=('more/address.html')">
+        <div class="img_wrap"><img src="img/addressbook@1x.png" alt=""></div>
+        <p>
+            <span class="myAccount">地址簿</span>
+            <span class="accountMore">管理您的收货地址</span>
+        </p>
+        <div class="continue">></div>
+    </li>
+    <li>
+        <div class="img_wrap"><img src="img/rewardpoints.png" alt=""></div>
+        <p>
+            <span class="myAccount">消费积分</span>
+            <span class="accountMore">查看您的消费积分记录</span>
+        </p>
+        <div class="continue">></div>
+    </li>
+    <li>
+        <div class="img_wrap"><img src="img/favorite@1x.png" alt=""></div>
+        <p>
+            <span class="myAccount">收藏夹</span>
+            <span class="accountMore">保存您喜欢的商品</span>
+        </p>
+        <div class="continue">></div>
+    </li>
+    <li onclick="window.location.href=('more/likeSetting.html')">
+        <div class="img_wrap"><img src="img/preferences@1x.png" alt=""></div>
+        <p>
+            <span class="myAccount">偏好设置</span>
+            <span class="accountMore">更改语言和货币</span>
+        </p>
+        <div class="continue">></div>
+    </li>
+</ul>
+<div class="user_name">
+    <span>您好</span><span>999999999</span><button>安全退出</button>
+</div>
+<!--底部导航部分-->
+<div id="footer"></div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/more.js"></script>
+</body>
+</html>

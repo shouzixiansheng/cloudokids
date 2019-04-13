@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+body {
+    font-family: PingFang;
+}
+
+img {
+    display: block;
+}
+
+.carToonBanner {
+    width: 100%;
+    height: 5rem;
+}
+
+.carToonBanner img {
+    width: 100%;
+    height: 5rem;
+}
+
+.carToonContent {
+    width: 92%;
+    height: 3.2rem;
+    margin: 0.3rem auto 0;
+    background-color: #f2f3f5;
+    overflow: hidden;
+}
+
+.mainCarToon {
+    width: 6.6rem;
+    height: 2.7rem;
+    margin: 0.25rem auto 0;
+    background: url(../img/carToon-002.png);
+    background-size: 6.6rem 2.7rem;
+    position: relative;
+}
+
+.carToonIntroduce {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.4rem;
+    position: absolute;
+    left: 0;
+    top: -0.2rem;
+}
+
+.smallIntroduce {
+    font-size: 0.2rem;
+    transform: scale(0.7);
+    text-align: center;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.carToonIntroduce div:nth-of-type(1) {
+    position: absolute;
+    left: 26%;
+    top: 0.1rem;
+    width: 0.24rem;
+    height: 0.28rem;
+    background: url(../img/carToon-003.png);
+    background-size: 0.23rem 0.24rem;
+}
+
+.carToonIntroduce div:nth-of-type(2) {
+    position: absolute;
+    right: 26%;
+    top: 0.1rem;
+    width: 0.24rem;
+    height: 0.28rem;
+    background: url(../img/carToon-004.png);
+    background-size: 0.23rem 0.24rem;
+}
+
+.introMore {
+    width: 92%;
+    margin: 0 auto;
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+}
+
+.line {
+    width: 92%;
+    margin: 0 auto;
+    height: 0.05rem;
+    border-bottom: 1px dashed #f2f3f5;
+}
+
+.carToonModel {
+    width: 92%;
+    height: 12rem;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+.native {
+    height: 0.76rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.76rem;
+    background: url(../img/carToon-005.png) 1.4rem 0 no-repeat;
+    background-size: 0.68rem 0.76rem;
+    margin-top: 0.7rem;
+}
+.native-2{
+    background: url(../img/carToon-005.png) 2rem 0 no-repeat;
+    background-size: 0.68rem 0.76rem;
+}
+.nativeTop {
+    width: 77.5%;
+    margin: 0.55rem auto 0;
+    font-size: 0.24rem;
+    height: 1rem;
+    line-height: 0.4rem;
+}
+
+
+.marginTop {
+    margin-top: 0.87rem !important;
+}
+
+.carToonPro {
+    width: 95%;
+    height: 2.5rem;
+    margin: 0 auto;
+}
+
+.carToonPro a {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    color: black;
+}
+
+.carToonPro img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgWrap {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px dashed #f2f3f5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.carProInt {
+    width: 3.5rem;
+    float: right;
+    height: 2.5rem;
+    position: relative;
+}
+
+.carToonName, .carToonDesigner, .carToonPrice {
+    height: 0.4rem;
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imBolder{
+    font-weight: bolder;
+}
+.recommendLine {
+    width: 100%;
+    height: 0.16rem;
+    background-color: #dfdfdf;
+}
+.bgFrame {
+    width: 100%;
+    height: 1.23rem;
+    margin-top: 0.52rem;
+}
+
+.bgFrame div:nth-of-type(1) {
+    width: 2.22rem;
+    margin: 0 auto;
+    font-size: 0.307rem;
+    height: 0.68rem;
+    background: url(../img/CartoonBg.png);
+    background-size: 2.22rem 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+
+.bgFrame div:nth-of-type(2) {
+    width: 2.25rem;
+    height: 0.55rem;
+    margin: 0 auto;
+    background: url(../img/CartoonBg2.png);
+    background-size: 2.25rem 0.55rem;
+}
+.carToonInfo {
+    width: 1.5rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.recommendContent {
+    width: 100%;
+}
+
+.recommend {
+    width: 95.3%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+
+}
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+.headPortrait div {
+    float: left;
+}
+.recommendPro {
+    width: 92%;
+    margin: 0 auto;
+    font-family: "Avenir Next";
+}
+
+.imModel {
+    width: 50%;
+    height: 4.5rem;
+    float: left;
+}
+.imModel a{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+.imModel img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.commonInfo {
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.imModel div:nth-of-type(1) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.imModel div:nth-of-type(2) {
+    width: 90%;
+    height: 0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.2rem;
+    white-space: nowrap;
+}
+
+.imModel div:nth-of-type(3) {
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.2rem;
+}

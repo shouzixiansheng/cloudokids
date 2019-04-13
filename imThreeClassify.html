@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>目录</title>
+    <!--强制让文档的宽度与设备的宽度保持1:1,并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no"/>
+    <!--WebApp全屏模式，隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--苹果强制全屏显示-->
+    <meta name="full-screen" content="yes"/>
+    <!--制定iPhone中safari顶端的状态条样式（default:白色，black黑色 black-translucent:半透明）-->
+    <meta name="apple=mobile-web-app-status-bar-style" content="black"/>
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/classify.css">
+    <script src="js/js/rem.js"></script>
+</head>
+<body>
+<div class="assort_wrap">
+    <div class="goUp" onclick="goBack()"><img src="img/back@2x.png" alt=""></div>
+    <div class="assort"><span class="assort_one"></span></div>
+    <script>
+        function goBack() {
+            window.history.go(-1);
+        }
+    </script>
+</div>
+<!--商品分类-->
+<ul class="assort_assort">
+    <img src="img/imLoading.gif" alt="">
+</ul>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/customer.js"></script>
+<script src="js/imThreeClassify.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    display: block;
+}
+
+html {
+    font-family: "Avenir Next";
+}
+
+.grayBg {
+    height: 0.1rem;
+    background: #f9f9f9;
+}
+.childrenDayActivity{
+    width:100%;
+    height:0.75rem;
+    background:url(http://img1.cloudokids.cn/buyers/our2017/childrenDayActivity.jpg) no-repeat center center;
+    background-size: 100% 0.75rem;
+    position: fixed;
+    top:0.1rem;
+    left:0;
+    z-index: 100;
+}
+.closeAdvice{
+    width:1rem;
+    height:0.75rem;
+    float: left;
+}
+.openApp{
+    width:2rem;
+    height:0.75rem;
+    float: right;
+}
+.banner {
+    height: 9.47rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 9.47rem;
+}
+
+.wordsIntroduce {
+    width: 84%;
+    margin: 0 auto;
+    font-size: 0.25rem;
+    line-height: 0.46rem;
+    padding: 0.5rem 0 0.9rem 0;
+}
+
+.hotSingle {
+    height: 3.24rem;
+}
+
+.hotSingle img {
+    width: 100%;
+    height: 3.24rem;
+}
+
+.hotSingleOther {
+    margin-top: 0.3rem;
+}
+
+.loveDesigner {
+    width: 4.4rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin: 0.9rem auto 0.58rem;
+    text-align: center;
+    font-size: 0.5rem;
+    position: relative;
+    border-bottom: 1px solid;
+}
+
+.loveBONPOINT {
+    height: 3.2rem;
+}
+
+.loveBONPOINT img {
+    width: 100%;
+    height: 3.2rem;
+}
+
+.designerWrap {
+    height: 3.2rem;
+    position: relative;
+    margin-top: 0.32rem;
+}
+
+.ilGufo, .beauLoves {
+    width: 49%;
+    height: 3.2rem;
+    position: absolute;
+    top: 0;
+}
+
+.ilGufo {
+    left: 0
+}
+
+.beauLoves {
+    right: 0
+}
+
+.designerWrap img {
+    width: 100%;
+    height: 3.2rem;
+}
+
+.buyersRecommend {
+    display: block;
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+    width: 3.4rem;
+    text-align: center;
+    margin: 0.9rem auto 0.55rem;
+    border-bottom: 1px solid;
+}
+
+.buyersWrap {
+    width: 100%;
+}
+
+.allBuyers {
+    width: 78.4%;
+    margin: 0 auto;
+}
+
+.beautyBuyer {
+    height: 1.2rem;
+    position: relative;
+}
+
+.beautyBuyer a {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.beautyBuyer a img {
+    width: 100%;
+    height: 100%;
+}
+
+.buyerProduct {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 0.45rem;
+    position: relative;
+}
+
+.buyerName {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 1.36rem;
+    height: 1.2rem;
+    float: left;
+    line-height: 1.2rem;
+    font-size: 0.22rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 0.1rem;
+}
+
+.signerNature {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 3.1rem;
+    height: 0.66rem;
+    background: url(../image/words-11.png);
+    background-size: 3.1rem 0.66rem;
+    position: absolute;
+    right: 0;
+    top: 0.3rem;
+    font-size: 0.22rem;
+    padding-left: 0.2rem;
+}
+.buyerProduct>div{
+    position: absolute;
+    top: 0;
+    width: 2.6rem;
+    height: 3.45rem;
+}
+.buyerProduct span{
+    display: block;
+    height:0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.buyerProduct>div>span:nth-of-type(1){
+    margin-top: 0.05rem;
+}
+.buyerProduct a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid #e5e5e5;
+}
+.buyerProduct a img{
+    width:80%;
+    margin: 10% auto 10%;
+}
+.buyerProduct>div:nth-of-type(1) {
+    left: 0;
+}
+
+.buyerProduct >div:nth-of-type(2) {
+    right: 0;
+}
+
+.lookMore {
+    display: block;
+    width: 2.66rem;
+    margin: 0.98rem auto 0.78rem;
+    height: 0.66rem;
+    line-height: 0.66rem;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 0.22rem;
+}
+
+.girlModel {
+    width: 1.4rem;
+    height: 0.72rem;
+    text-align: center;
+    border-bottom: 1px solid;
+    line-height: 0.72rem;
+    font-size: 0.5rem;
+    margin: 0 auto 0.6rem;
+}
+
+.girlsBanner {
+    width: 100%;
+    height: 4.05rem;
+}
+
+.girlsBanner img {
+    width: 100%;
+    height: 4.05rem;
+}
+
+.speciallMarket {
+    width: 90%;
+    height: 2.4rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.speciallMarket a {
+    width: 47%;
+    height: 2.4rem;
+    position: absolute;
+    top: 0
+}
+.speciallMarket a img{
+    width: 100%;
+    height: 2.4rem;
+}
+.speciallMarket a:nth-of-type(1) {
+    left: 0;
+}
+
+.speciallMarket a:nth-of-type(2) {
+    right: 0;
+}
+.imTheLast{
+    height:3.24rem;
+}
+.imTheLast img{
+    width:100%;
+    height:3.24rem;
+    margin-top: 0.8rem;
+}
+.same{
+    width: 90%;
+    margin: 0.5rem auto;
+}
+.same ul{
+    overflow: hidden;
+    width: 100%;
+}
+.same ul li{
+    width: 30%;
+    float: left;
+    list-style: none;
+    margin-left: 4.7%;
+}
+.same ul li:nth-child(1){
+    margin-left: 0;
+}
+.same ul li a{
+    display: block;
+}
+.same ul li a img{
+    width: 90%;
+    padding: 5%;
+    border: 1px solid #DDDDDD;
+}
+.same ul li a p{
+    font-size: 0.25rem;
+    line-height: 0.46rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+
+
+
+

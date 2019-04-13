@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    font-family: "Avenir Next";
+    background-color: #f9f9f9;
+}
+
+img {
+    display: block;
+}
+.zg_head{
+    width: 100%;
+    margin: 0.1rem auto 0 auto;
+    background-color: #FFFFFF;
+}
+.zg_head img{
+    width: 100%;
+}
+.goLike{
+    width:100%;
+    height: 2rem;
+    background: url(http://img1.cloudokids.cn/buyers/newImg/holidayActive1.jpg) center top;
+    background-size: 100% 100%;
+}
+.goLike a{
+    display: block;
+    width:33.3%;
+    height:1.98rem;
+    float: left;
+}
+.zg_title{
+    width: 100%;
+    background-color: #b5b5b5;
+    height: 1.2rem;
+}
+.zg_title .g_center{
+    width: 3.68rem;
+    height: 1.2rem;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 1.2rem;
+    color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+}
+.zg_title img{
+    float: left;
+    margin: 0.1rem -0.5rem 0.1rem 1rem;
+    height: 1rem;
+}
+.gucciContent{
+    width: 100%;
+    margin-top: 0.3rem;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.imModel{
+    width: 50%;
+    float: left;
+    background-color: #ffffff;
+}
+.imModel a{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+.imModel img{
+    width: 3rem;
+    height: 3rem;
+}
+.imModel span{
+    display: block;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+
+.designer{
+    margin-top: 0.05rem;
+    font-size: 0.24rem;
+}
+.proName{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.2rem;
+    height: 0.9rem!important;
+}
+.price{
+    font-size: 0.2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+/*.newPrice{*/
+    /*font-size: 0.2rem;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*width: 48%;*/
+/*}*/
+/*#shoes{*/
+    /*padding-bottom: 1rem;*/
+/*}*/

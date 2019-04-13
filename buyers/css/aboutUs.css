@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Avenir Next";
+}
+img{
+    display: block;
+}
+.grayBg{
+    background: #f9f9f9;
+    height:0.1rem;
+}
+.aboutUs{
+    height:2.5rem;
+    overflow: hidden;
+}
+.aboutUs>div{
+    width:84%;
+    margin: 1rem auto 0;
+    height:0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.62rem;
+    color:#adadad;
+}
+.aboutCloudo{
+    width:84%;
+    height:0.53rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.aboutCloudo div{
+    float: left;
+}
+.curcle{
+    width:0.16rem;
+    height:0.53rem;
+    background:url(http://img1.cloudokids.cn/buyers/newCollage/aboutUsCircle.jpg) center top;
+    background-size: 0.16rem 0.53rem;
+    border-radius: 100%;
+}
+.cloudoTitle{
+    font-size: 0.32rem;
+    padding-left: 0.1rem;
+    font-weight: bolder;
+}
+.cloudoIntroduce{
+    width:84%;
+    margin: 0 auto;
+    font-size: 0.25rem;
+    line-height: 0.46rem;
+    text-align: justify;
+    padding: 0.56rem 0 1.11rem 0;
+}
+.imgWrap{
+    height:4rem;
+    margin-top: 0.4rem;
+}
+.imgWrap img{
+    height:4rem;
+    margin: 0 auto;
+}
+.cloudoIntroduce2{
+    padding:0.4rem 0 1.02rem 0
+}
+.year{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:84%;
+    margin: 0.36rem auto 0;
+    padding: 0.5rem 0 0.6rem 0.26rem;
+    height:0.53rem;
+}
+.year>div{
+    float: left;
+}
+.year2{
+    margin-top: 0;
+}
+.year3{
+    padding-top: 0;
+}
+.yearDetail{
+    padding-left: 0.1rem;
+    font-size: 0.32rem;
+    height:0.53rem;
+    line-height: 0.53rem;
+    font-weight: bolder;
+}
+.moreIntroduce,.moreLittleIntroduce{
+    width:84%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 0.52rem;
+    font-size: 0.25rem;
+    line-height: 0.46rem;
+    text-align: justify;
+    padding-bottom: 0.7rem;
+}
+.moreLittleIntroduce{
+    padding-bottom: 0;
+}
+.moreIntroduce2{
+    padding-bottom: 1.48rem;
+}

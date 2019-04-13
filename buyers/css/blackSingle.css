@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Avenir Next";
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.bg{
+    background: #f9f9f9;
+    height:0.1rem;
+}
+.classWords{
+    font-size: 0.24rem;
+    overflow: hidden;
+    padding-bottom: 0.55rem;
+}
+.classWords div:nth-of-type(1){
+    margin-top: 0.60rem;
+}
+.classWords div{
+    text-align: center;
+    line-height: 0.48rem;
+}
+.redWrap{
+    width:100%;
+    height:7.4rem;
+}
+.redBanner{
+    width:92%;
+    height:7rem;
+    margin: 0 auto;
+}
+.redBanner img{
+    width:100%;
+}
+/*推荐买手搭配*/
+.bgFrame {
+    width: 100%;
+    height: 1.23rem;
+    margin-top: 0.52rem;
+}
+
+.bgFrame div:nth-of-type(1) {
+    width: 2.22rem;
+    margin: 0 auto;
+    font-size: 0.307rem;
+    height: 0.68rem;
+    background: url(../img/CartoonBg.png);
+    background-size: 2.22rem 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+
+.bgFrame div:nth-of-type(2) {
+    width: 2.25rem;
+    height: 0.55rem;
+    margin: 0 auto;
+    background:url(../img/CartoonBg2.png);
+    background-size: 2.25rem 0.55rem;
+}
+.recommendContent {
+    width: 100%;
+}
+.recommend {
+    width: 92%;
+    height: 8.8rem;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 auto;
+}
+.clickCheck {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    border: none;
+    margin: 0.2rem auto;
+}
+.clickCheck a {
+    display: block;
+    width: 1.38rem;
+    height: 0.48rem;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.headPortrait {
+    height: 0.84rem;
+    margin-top: 0.2rem;
+}
+.recommendPic img {
+    width: 100%;
+    height: 6.84rem;
+}
+.recommendWords {
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.userProtrait {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userName {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userProtrait img {
+    width: 100%;
+}
+.headPortrait div {
+    float: left;
+}
+.recommendLine {
+    width: 100%;
+    height: 0.10rem;
+    background-color: #dfdfdf;
+}
+/*买手搭配结束*/
+.cowContent{
+    width:100%;
+    margin-top: 20px;
+}
+.imModel{
+    width:50%;
+    float: left;
+}
+.imModel a{
+    display: block;
+    width:3rem;
+    height:3rem;
+    margin: 0 auto;
+}
+.imModel img{
+    width:3rem;
+    height:3rem;
+}
+.imModel span{
+    display: block;
+    height:0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.designer{
+    margin-top: 0.05rem;
+    font-size: 0.24rem;
+}
+.proName{
+    width:90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.2rem;
+}
+.price{
+    font-size: 0.2rem;
+}

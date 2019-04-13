@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir Next;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.36rem;
+    text-align: center;
+    position: relative;
+    background-color: #ffffff;
+}
+
+nav div {
+    width: 0.3rem;
+    height: 0.88rem;
+    position: absolute;
+    left: 4%;
+    top: 0;
+}
+
+nav div img {
+    display: block;
+    width: 0.3rem;
+}
+.lineBg{
+    width:100%;
+    height:0.1rem;
+    background-color:#f9f9f9 ;
+}
+.focusContent-wrap {
+    width: 100%;
+    /*margin-top: 0.1rem;*/
+    background-color: #ffffff;
+}
+
+.focusContent {
+    width: 92%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pic-wrap {
+    height: 3rem;
+    margin-top: 0.32rem;
+}
+
+.pic-wrap img {
+    height: 3rem;
+}
+
+.shoperReason {
+    height: 11.25rem;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.shoperReason nav, .imHead {
+    width: 1.9rem;
+    height: 0.55rem;
+    text-align: center;
+    margin: 0.32rem auto;
+    line-height: 0.55rem;
+    position: relative;
+    font-size: 0.3rem;
+    font-weight: bolder;
+}
+
+.borderLeft, .borderRight {
+    width: 0.16rem;
+    height: 0.16rem;
+    display: block;
+    position: absolute;
+}
+
+.borderLeft {
+    top: 0;
+    left: 0;
+}
+
+.borderRight {
+    right: 0;
+    bottom: 0;
+}
+
+.introduce, .introduceMore {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 92%;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    padding: 0 0.3rem 0 0.3rem;
+    line-height: 0.35rem;
+    text-align: justify;
+}
+
+.waterBg {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 92%;
+    margin: 0.24rem auto;
+    height: 1.43rem;
+    padding: 0 0.3rem 0 0.3rem;
+    position: relative;
+}
+
+.waterBg div {
+    width: 0.99rem;
+    height: 1.38rem;
+    position: absolute;
+    background: url(../imgs/water.png);
+    background-size: 0.99rem 1.38rem;
+    font-size: 0.24rem;
+    top: 0;
+}
+
+.waterBg div:nth-of-type(1) {
+    left: 0.3rem;
+}
+
+.waterBg div:nth-of-type(2) {
+    left: 1.6275rem;
+}
+
+.waterBg div:nth-of-type(3) {
+    left: 2.955rem;
+}
+
+.waterBg div:nth-of-type(4) {
+    left: 4.2825rem;
+}
+
+.waterBg div:nth-of-type(5) {
+    right: 0.3rem;
+}
+
+.myTop, .parent {
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    left: 0;
+}
+
+.myTop {
+    bottom: 0.4rem !important;
+}
+
+.parent {
+    bottom: 0.1rem;
+}
+
+.pic-wrapTwo {
+    height: 2.02rem;
+    overflow: hidden
+}
+
+.box-two {
+    width: 92%;
+    margin: 0 auto;
+    height: 2.02rem;
+}
+
+.box-two img {
+    display: block;
+    width: 6.9rem;
+}
+
+.wordsIntroduce {
+    text-align: center;
+    font-size: 0.24rem;
+    background-color: #ffffff;
+    color: black;
+}
+.brand-wrap{
+    width:100%;
+    height:0.4rem;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 0.6rem;
+}
+.brand-wrap img{
+    display: block;
+    height:0.4rem;
+}
+
+.bottomWish{
+    font-size: 0.24rem;
+    text-align: center;
+    color: black;
+}
+.hope{
+    margin-top: 0.73rem;
+}
+.weixin,.weibo{
+    text-align: center;
+    font-size: 0.24rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Avenir Next";
+}
+
+body {
+    background: #eee;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 93.3%;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 8.85rem;
+    margin: 0 auto;
+}
+
+.banner img {
+    height: 8.85rem;
+}
+
+.bossChildren {
+    height: 5.08rem;
+}
+
+.children {
+    height: 4.28rem;
+    padding-top: 0.8rem;
+}
+
+.children img {
+    width: 5.87rem;
+    height: 4.28rem;
+    margin: 0 auto;
+}
+
+.childIntro {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.childIntro p {
+    text-indent: 2em;
+    width: 5.87rem;
+    padding: 0.5rem 0 1.35rem 0;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    line-height: 0.48rem;
+}
+
+.bossChildren2 {
+    height: 4.28rem;
+}
+
+.bossChildren2 img {
+    width: 5.87rem;
+    height: 4.28rem;
+    margin: 0 auto;
+}
+
+.worldTravel, .travelLeft, .travelRight {
+    height: 5.48rem;
+}
+
+.worldTravel, .placeIntroduce {
+    width: 5.87rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.travelLeft {
+    width: 51%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.travelLeft div {
+    font-size: 0.2rem;
+    padding-top: 0.15rem;
+}
+
+.travelRight {
+    width: 49%;
+    float: right;
+}
+
+.travelOne {
+    width: 96%;
+    height: 2.06rem;
+}
+
+.travelTwo {
+    width: 96%;
+    position: absolute;
+    height: 2.57rem;
+    bottom: 0;
+    left: 0;
+}
+
+.travelRight img {
+    height: 5.48rem;
+    width: 100%;
+}
+
+.placeIntroduce div:nth-of-type(1) {
+    width: 51%;
+}
+
+.placeIntroduce div:nth-of-type(2) {
+    width: 49%;
+}
+
+.placeIntroduce div {
+    float: left;
+    text-align: left;
+    font-size: 0.20rem;
+    padding: 0.15rem 0 0.6rem 0;
+}
+
+.chicagoWrap {
+    height: 4.28rem;
+}
+
+.chicago {
+    width: 5.87rem;
+    height: 4.28rem;
+    margin: 0 auto;
+}
+
+.chicago img {
+    width: 5.87rem;
+    height: 4.28rem;
+}
+
+.chicagoIntroduce {
+    font-size: 0.2rem;
+    text-align: center;
+    padding: 0.1rem 0 1.53rem 0;
+}
+
+.differentColor {
+    height: 0.3rem;
+}
+
+.marginTop {
+    margin-top: 0.65rem;
+}
+
+.color {
+    width: 5.87rem;
+    height: 0.3rem;
+    margin: 0 auto;
+}
+
+.colorLeft {
+    width: 45.48%;
+    height: 0.3rem;
+    float: right;
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/colorOne.jpg) left top no-repeat;
+    background-size: 0.89rem 0.3rem;
+}
+
+.colorTwo {
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/colorTwo.jpg) left top no-repeat;
+    background-size: 0.89rem 0.3rem;
+}
+
+.colorThree {
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/colorThree.jpg) left top no-repeat;
+    background-size: 0.89rem 0.3rem;
+}
+
+.colorFour {
+    background: url(http://img1.cloudokids.cn/buyers/newCollage/colorFour.jpg) left top no-repeat;
+    background-size: 0.89rem 0.3rem;
+}
+
+.possWrap {
+    width: 100%;
+    height: 4.81rem;
+}
+
+.poss {
+    width: 5.87rem;
+    margin: 0 auto;
+    height: 4.81rem;
+}
+
+.clothShow {
+    width: 2.42rem;
+    height: 4.81rem;
+    float: left;
+}
+
+.allColor {
+    width: 2.43rem;
+    height: 4.12rem;
+    margin-top: 0.6rem;
+    position: relative;
+}
+
+.detailShow {
+    width: 2.43rem;
+    height: 4.12rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.detailShow a {
+    display: block;
+    width: 2.43rem;
+    height: 4.12rem;
+}
+
+.detailShow img {
+    width: 2.43rem;
+    height: 2.43rem;
+}
+
+.imName, .imPrice, .click {
+    height: 0.4rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.24rem;
+    white-space: nowrap;
+    margin-top: 0.1rem;
+}
+
+.click {
+    width: 1.5rem;
+    background-color: #000;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    margin: 0.05rem auto 0;
+}
+
+.imShow {
+    display: block;
+}
+
+.childrenPoss {
+    width: 3.08rem;
+    height: 4.81rem;
+    float: right;
+    margin-right: -0.42rem;
+}
+
+.childrenPoss img {
+    width: 3.08rem;
+    height: 4.81rem;
+}
+
+.imNull {
+    height: 1.6rem;
+}
+
+.imNull2 {
+    height: 0.16rem;
+    background-color: #eee;
+}
+
+.imBuyer {
+    height: 0.5rem;
+    margin-top: 1.35rem;
+    padding-bottom: 0.4rem;
+}
+
+.buyerContent {
+    width: 4.25rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.36rem;
+    position: relative;
+}
+
+.buyerContent div {
+    position: absolute;
+    height: 0.25rem;
+    border-bottom: 1px solid black;
+    width: 1.2rem;
+    top: 0;
+}
+
+.buyerContent div:nth-of-type(1) {
+    left: 0;
+}
+
+.buyerContent div:nth-of-type(2) {
+    right: 0;
+}
+
+.buyerGirl {
+    height: 1.6rem;
+}
+
+.grayBg {
+    width: 96%;
+    height: 1.6rem;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.grayBg a {
+    display: block;
+    width: 100%;
+    height: 1.6rem;
+    margin: 0 auto;
+}
+.imgWrap {
+    width: 1.23rem;
+    height: 1.23rem;
+    margin: 0.18rem 0 0 0.1rem;
+    float: left;
+}
+
+.imgWrap img {
+    height: 1.23rem;
+}
+
+.buyerIntroduce {
+    width: 3.5rem;
+    height: 1.23rem;
+    margin-top: 0.18rem;
+    float: left;
+    padding-left: 0.2rem;
+}
+
+.buyerIntroduce div {
+    font-size: 0.2rem;
+}
+
+.buyerIntroduce div:nth-of-type(1) {
+    font-size: 0.24rem;
+    padding-top: 0.2rem;
+}
+
+.buyerIntroduce div:nth-of-type(2) {
+    font-size: 0.24rem;
+    padding-top: 0.1rem;
+}
+
+.goMyHome {
+    width: 1.2rem;
+    height: 0.46rem;
+    margin-top: 0.57rem;
+    float: right;
+    margin-right: 0.1rem;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.2rem;
+}
+
+.buyerPro {
+    height: 4.3rem;
+    padding-top: 0.3rem;
+}
+
+.myPro {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 6.9rem;
+    height: 2.56rem;
+    margin: 0 auto;
+    padding: 0 0.1rem 0 0.1rem;
+}
+.myPro>div{
+    width:2rem;height:2.56rem;
+    float: left;
+}
+.myPro>div:nth-of-type(2){
+    margin-left: 0.35rem;
+}
+.myPro>div:nth-of-type(3){
+   float: right;
+}
+.proTop,.proShow{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px dashed #ccc;
+}
+.proTop{
+    width:2rem;height:0.46rem;
+
+}
+.proShow{
+    width:2rem;
+    height:2rem;
+    margin-top: 0.1rem;
+}
+.proTop{
+    font-size: 0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 0.46rem;
+}
+.proShow img{
+    width:1.92rem;
+    height:1.92rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+

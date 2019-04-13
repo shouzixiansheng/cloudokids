@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next";
+    background: #efeff4;
+    padding-bottom: 0.8rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    height: 1rem;
+    background: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.imWrap {
+    width: 100%;
+    height: 1rem;
+    position: relative;
+}
+
+nav span {
+    display: block;
+}
+
+.go_back {
+    width: 10%;
+    height: 1rem;
+    box-sizing: border-box;
+    line-height: 1rem;
+    font-size: 0.5rem;
+    padding-left: 0.2rem;
+    float: left;
+}
+
+.go_back img {
+    display: block;
+    width: 0.23rem;
+    height: 0.4rem;
+    margin: 0.3rem auto 0;
+}
+
+.myName {
+    width: 60%;
+    height: 1rem;
+    font-size: 0.3rem;
+    line-height: 1rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -30%;
+}
+
+.cartWrap {
+    width: 0.75rem;
+    height: 0.75rem;
+    float: right;
+}
+
+.cartWrap img {
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.3rem;
+}
+
+.shareWrap img {
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.3rem;
+}
+
+.main_content {
+    width: 100%;
+}
+
+.details_info {
+    width: 100%;
+    background: #FFFFFF;
+    margin-top: 1.2rem;
+}
+
+.info_wrap {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 0.6rem;
+    background: #FFFFFF;
+}
+
+.info_name {
+    width: 70%;
+    height: 0.6rem;
+    box-sizing: border-box;
+    padding: 0.2rem 0 0 0.2rem;
+    font-size: 0.3rem;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.info_price {
+    width: 30%;
+    float: left;
+    height: 0.6rem;
+}
+
+.info_price span {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.2rem 0 0 0.2rem;
+    font-size: 0.3rem;
+    float: left;
+    height: 0.6rem;
+    line-height: 0.35rem;
+    text-align: center;
+}
+
+.info_product {
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+}
+
+.info_product img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+.info_product .prepareLoading{
+    width:35px;height:35px;
+    margin: 2rem auto 0;
+}
+.describe-wrap {
+    width: 100%;
+    background: #FFFFFF;
+    padding-bottom: 0.5rem;
+    min-height: 4rem;
+}
+
+.describe-wrap span {
+    font-size: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.describe li {
+    background: url(../img/imSmallPoint.png) left center no-repeat;
+    background-size: 0.18rem 0.18rem;
+    font-size: 0.22rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+.describe p{
+    font-size: 0.22rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+.choose_size img {
+    width: 0.7rem;
+    height: 0.7rem;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    transform: rotate(90deg);
+}
+
+.commen_product {
+    width: 100%;
+    margin-top: 0.2rem;
+    background: #FFFFFF;
+    border-top: 1px solid #d3d3d6;
+    border-bottom: 1px solid #d3d3d6;
+}
+
+.title {
+    width: 100%;
+    box-sizing: border-box;
+    height: 0.8rem;
+    background: #FFFFFF;
+    font-size: 0.26rem;
+    font-weight: bolder;
+    padding: 0 0.1rem;
+    position: relative;
+}
+
+.title_name {
+    float: left;
+    line-height: 0.8rem;
+}
+
+.knowMore {
+    float: right;
+    line-height: 0.8rem;
+    padding-right: 0.1rem;
+}
+
+.line_devide {
+    width: 96%;
+    height: 4px;
+    border: 4px solid #d3d3d6;
+    position: absolute;
+    top: -0.2rem;
+    right: 0;
+    float: left;
+}
+
+.pic_wrapTwo, .pic_wrapOne {
+    height: 4rem;
+    background-color: #FFFFFF;
+}
+
+.img_wrap {
+    background: white;
+}
+
+.barMyself {
+    height: 2px !important;
+    background: white !important;
+}
+
+.img_wrap img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.product_name, .product_price {
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 0.22rem;
+    white-space: nowrap;
+    float: left;
+    overflow: hidden;
+}
+
+.product_name {
+    margin-top: 0.5rem;
+    font-weight: bolder;
+}
+
+.commen_product {
+    width: 100%;
+    border-top: 1px solid #d3d3d6;
+    border-bottom: 1px solid #d3d3d6;
+    margin-top: 0.2rem;
+}
+
+.deliveryWay {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.customerAttention, .proBack, .contactUs {
+    font-size: 0.22rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    padding-left: 0.15rem;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.contactUs {
+    border: none;
+}
+
+.customerAttention span {
+    display: block;
+}
+
+.method {
+    float: left;
+}
+
+.info-more {
+    width: 0.7rem;
+    height: 0.7rem;
+    font-weight: bolder;
+    float: right;
+}
+
+.info-more1, .info-more2 {
+    background: url(../img/add.png) center no-repeat;
+    background-size: 0.1rem 0.1rem;
+}
+
+.info-more3 {
+    background: url(../img/arrows1.png) center no-repeat;
+    background-size: 0.07rem 0.12rem;
+}
+
+.changeBg {
+    background: url(../img/cut.png) center no-repeat;
+    background-size: 0.1rem 0.02rem;
+}
+
+.commonHide {
+    padding-left: 0.15rem;
+    display: none;
+    font-size: 0.22rem;
+    background-color: rgba(239,239,244,1);
+}
+
+.commonHide li {
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.commonHide .even {
+    font-size: 0.2rem;
+    color: #000000;
+}
+
+.commonHide .odd {
+    font-size: 0.24rem;
+}
+
+.selectSize {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    font-size: 0.28rem;
+}
+
+.mySize {
+    width: 65%;
+    background: #373737;
+    text-align: center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    position: relative;
+    color: #FFFFFF;
+    float: left;
+}
+
+.match, .collect {
+    width: 17.5%;
+    height: 0.8rem;
+    float: left;
+    line-height: 0.8rem;
+    text-align: center;
+    background: #FFFFFF;
+
+}
+
+.match div img {
+    display: block;
+    width: 0.4rem;
+    height: 0.35rem;
+    margin: 0.1rem auto 0;
+}
+
+.collect {
+    background: #F1F1F1;
+}
+
+.collectBg {
+    width: 0.52rem;
+    height: 0.45rem;
+    margin: 0 auto;
+    background: url("../img/newLoveStar.png") no-repeat center bottom;
+    background-size: 0.4rem 0.35rem;
+}
+
+.collectBg2 {
+    background: url("../img/newLoveStar2.png") center bottom no-repeat;
+    background-size: 0.4rem 0.35rem;
+}
+
+.commonInfo {
+    height: 0.35rem;
+    line-height: 0.35rem;
+    display: block;
+    font-size: 0.2rem;
+    text-align: center;
+}
+
+.moreSize {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    background: rgba(219, 219, 219, 1);
+    height: 6rem;
+    overflow: auto;
+}
+
+.addBag-wrap {
+    width: 100%;
+    height: 1.1rem;
+    background: #DBDBDB;
+    overflow: hidden;
+    position: fixed;
+    bottom: 4.9rem;
+    left: 0;
+    z-index: 999;
+}
+
+.addBag {
+    display: block;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin: 0.2rem auto;
+    height: 0.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.2rem;
+    background-color: #A7A7A7;
+    color: #FFFFFF;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.proSize {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-top: 1.1rem;
+}
+
+.proSize li {
+    width: 95%;
+    float: right;
+    height: 0.7rem;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+.imChecked {
+    height: 0.7rem;
+    line-height: 0.7rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    font-weight: 600;
+    display: none;
+}
+
+.proSize li:last-child {
+    border: none;
+}
+
+.babyAge {
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: left;
+    float: left;
+    width: 3rem;
+    font-size: 0.2rem;
+}
+
+.proStore {
+    font-size: 0.2rem;
+    width: 1.5rem;
+    text-align: center;
+    line-height: 0.7rem;
+    float: right;
+}
+
+.matchData {
+    width: 100%;
+    overflow: auto;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+    font-size: 0.28rem;
+    z-index: 1001;
+}
+
+.switchShow {
+    display: block;
+}
+
+/*点击收藏*/
+.absolute {
+    width: 2.5rem;
+    height: 0.6rem;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -1.25rem;
+    margin-top: -0.3rem;
+    z-index: 1002;
+}
+/*遮罩层禁止滚动*/
+.overflowHidden {
+    overflow: hidden;
+}
+
+.shade {
+    width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 1001;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
